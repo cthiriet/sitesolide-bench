@@ -1,0 +1,12 @@
+node_modules
+dist
+.astro
+.git
+k6
+README.md
+Dockerfile
+.dockerignore
+.images.stamp
+public/images
+src/content/docs
+src/data

@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import { SECTIONS, docPath, loadDocs, sectionPath } from '../lib/docs';
+
+const { all, bySection } = await loadDocs();
+const recent = [...all]
+  .sort((a, b) => b.data.updated.localeCompare(a.data.updated) || a.id.localeCompare(b.id))
+  .slice(0, 8);
+const sectionTitle = (id: string) => SECTIONS.find((section) => section.id === id)?.title ?? id;
+---
+
+<Base title="Acme Docs" description="Handbook, engineering notes, runbooks, product specs, people guides and security policies.">
+  <main id="main" class="home">
+    <section class="hero">
+      <p class="hero__eyebrow">Internal documentation</p>
+      <h1>Everything Acme knows, in one place</h1>
+      <p class="hero__lede">
+        {all.length} pages across {SECTIONS.length} sections. Start with the handbook if you are new, or jump to the
+        runbooks if you are on call.
+      </p>
+    </section>
+
+    <section class="cards" aria-label="Sections">
+      {
+        SECTIONS.map((section) => (
+          <a class="card" href={sectionPath(section)}>
+            <h2>{section.title}</h2>
+            <p>{section.blurb}</p>
+            <ul>
+              {(bySection.get(section.id) ?? []).slice(0, 3).map((page) => <li>{page.data.title}</li>)}
+            </ul>
+            <span class="card__count">{section.count} pages</span>
+          </a>
+        ))
+      }
+    </section>
+
+    <section class="recent">
+      <h2>Recently updated</h2>
+      <ul class="page-list">
+        {
+          recent.map((page) => (
+            <li>
+              <a href={docPath(page)}>{page.data.title}</a>
+              <p>{page.data.description}</p>
+              <span class="page-list__meta">
+                {sectionTitle(page.data.section)}, updated {page.data.updated}
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+</Base>

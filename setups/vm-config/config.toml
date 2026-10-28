@@ -1,0 +1,16 @@
+version = 3
+disabled_plugins = ["io.containerd.grpc.v1.cri"]
+
+[plugins."io.containerd.snapshotter.v1.devmapper"]
+  pool_name = "devpool"
+  root_path = "/var/lib/containerd/devmapper-snapshotter"
+  base_image_size = "8GB"
+  discard_blocks = true
+
+# containerd 2 unpacks pulled images only for the snapshotters named here.
+[[plugins."io.containerd.transfer.v1.local".unpack_config]]
+  platform = "linux/amd64"
+  snapshotter = "overlayfs"
+[[plugins."io.containerd.transfer.v1.local".unpack_config]]
+  platform = "linux/amd64"
+  snapshotter = "devmapper"

@@ -1,0 +1,13 @@
+-> removing docs-07, static
+   this deletes the served directory and its data. Backup snapshots, if the machine takes any, stay; what changed since the last one is lost.
+-> Caddy lock, shared with the dashboard's gatekeeper
+-> remove the served directory, data included
+-> remove the project's store of secrets
+-> remove the previous versions of its store kept by the dashboard
+-> token ownership, on the steward
+   no token created docs-07
+
+-> gone from the machine. What is left, and this command will not do it:
+   remove the site folder: git rm -r /home/deploy/bench-deploy/docs-07
+   if your workstation's vault holds a credential for it, delete that file too
+   check what still mentions it: README, CLAUDE.md, your notes

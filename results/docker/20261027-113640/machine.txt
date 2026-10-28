@@ -1,0 +1,6 @@
+setup: docker, copies: 10, window: 180s
+kernel: 6.12.111+deb13-amd64
+Model name:                              AMD EPYC 8024P 8-Core Processor
+Mem:     66983116800  1145106432 65955344384    10379264   517181440 65838010368
+uptime: 23.69 s
+bench-caddy.service bench-run-docker.service containerd.service dbus.service docker.service exim4.service fail2ban.service getty@tty1.service mdmonitor.service serial-getty@ttyS0.service ssh.service systemd-journald.service systemd-logind.service systemd-networkd.service systemd-resolved.service systemd-timesyncd.service systemd-udevd.service unattended-upgrades.service user@1001.service 

@@ -1,0 +1,30 @@
+# One copy of the CRM: gunicorn in one container, its PostgreSQL in another,
+# with the same PostgreSQL settings as sitesolide documented recipe.
+services:
+  web:
+    image: bench/crm
+    ports: ["127.0.0.1:${PORT}:8000"]
+    environment:
+      PORT: "8000"
+      HOST: 0.0.0.0
+      PGHOST: db
+      PGPORT: "5432"
+      PGDATABASE: app
+      PGUSER: app
+      POSTGRES_PASSWORD: bench-db-pass
+      CSRF_TRUSTED_ORIGINS: https://${SLUG}.${ZONE}
+    mem_limit: 512m
+    depends_on: [db]
+    restart: unless-stopped
+  db:
+    image: postgres:17
+    command: [postgres, -c, shared_buffers=128MB, -c, max_connections=40, -c, dynamic_shared_memory_type=mmap]
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: bench-db-pass
+      POSTGRES_DB: app
+    volumes: [pg:/var/lib/postgresql/data]
+    mem_limit: 256m
+    restart: unless-stopped
+volumes:
+  pg: {}

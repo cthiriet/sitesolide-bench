@@ -1,0 +1,6 @@
+time="2026-10-27T12:08:25Z" level=warning msg="mem_limit is deprecated, use deploy.resources.limits.memory"
+time="2026-10-27T12:08:25Z" level=info msg="Creating network docs-02_default"
+time="2026-10-27T12:08:25Z" level=info msg="Ensuring image bench/docs"
+time="2026-10-27T12:08:25Z" level=info msg="Creating container docs-02-web-1"
+time="2026-10-27T12:08:25Z" level=info msg="Running [/usr/local/bin/nerdctl --snapshotter=devmapper --storage-driver=devmapper run --cidfile=/tmp/compose-2232992677/cid -l=com.docker.compose.project=docs-02 -l=com.docker.compose.service=web -l=com.docker.compose.config-hash=e5d3e2108066ead0e11051703e2abb1f33ad1e5fdc47bd077ea6ad4e441181f1 -d --name=docs-02-web-1 --pull=never -m=67108864 --net=docs-02_default --hostname=web -p=127.0.0.1:4002:80/tcp --restart=unless-stopped --runtime=io.containerd.kata.v2 bench/docs]"
+time="2026-10-27T12:08:26Z" level=warning msg="cannot set cgroup manager to \"systemd\" for runtime \"io.containerd.kata.v2\""

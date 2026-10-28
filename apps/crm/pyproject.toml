@@ -1,0 +1,14 @@
+[project]
+name = "crm"
+version = "0.1.0"
+description = "Contacts, companies and activity timeline (Django + PostgreSQL), a memory-density benchmark app"
+requires-python = ">=3.13"
+dependencies = [
+    "django",
+    "gunicorn",
+    "psycopg[binary]",
+    "whitenoise",
+]
+
+[tool.uv]
+package = false

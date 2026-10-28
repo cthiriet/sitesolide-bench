@@ -1,0 +1,47 @@
+-> removing wiki-04, service
+   this deletes the served directory and its data. Backup snapshots, if the machine takes any, stay; what changed since the last one is lost.
+-> Caddy lock, shared with the dashboard's gatekeeper
+-> Caddy fragment, through the validated path
+-> to deposit
+   infra/caddy/Caddyfile
+-> Caddy lock: held by the caller (deploy 50892 1793100766431)
+-> differences with the VM
+   unchanged  /etc/caddy/Caddyfile
+   TO REMOVE  /etc/caddy/sites/wiki-04.caddy
+-> does Caddy's unit load the zone variables?
+-> backup to /var/backups/caddy/20261027-113247
+-> deposit
+-> validation, with the token as systemd provides it
+-> reload
+-> verification
+   https://crm-01.bench.example.com/           200
+   https://crm-02.bench.example.com/           200
+   https://crm-03.bench.example.com/           200
+   https://crm-04.bench.example.com/           200
+   https://crm-05.bench.example.com/           200
+   https://crm-06.bench.example.com/           200
+   https://crm-07.bench.example.com/           200
+   https://crm-08.bench.example.com/           200
+   https://crm-09.bench.example.com/           200
+   https://crm-10.bench.example.com/           200
+   https://dashboard.bench.example.com/        200
+   https://portal.bench.example.com/           200
+   https://wiki-05.bench.example.com/          200
+   https://wiki-06.bench.example.com/          200
+   https://wiki-07.bench.example.com/          200
+   https://wiki-08.bench.example.com/          200
+   https://wiki-09.bench.example.com/          200
+   https://wiki-10.bench.example.com/          200
+-> in service. Previous backup: /var/backups/caddy/20261027-113247
+-> stop and remove the systemd unit
+-> remove the served directory, data included
+-> remove the project's store of secrets
+-> remove the previous versions of its store kept by the dashboard
+-> remove the system user
+-> token ownership, on the steward
+   no token created wiki-04
+
+-> gone from the machine. What is left, and this command will not do it:
+   remove the site folder: git rm -r /home/deploy/bench-deploy/wiki-04
+   if your workstation's vault holds a credential for it, delete that file too
+   check what still mentions it: README, CLAUDE.md, your notes

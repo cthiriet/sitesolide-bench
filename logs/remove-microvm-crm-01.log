@@ -1,0 +1,8 @@
+time="2026-10-27T10:46:02Z" level=info msg="Stopping container crm-01-web-1"
+time="2026-10-27T10:46:02Z" level=info msg="Removing container crm-01-web-1"
+time="2026-10-27T10:46:03Z" level=info msg="Stopping container crm-01-db-1"
+time="2026-10-27T10:46:03Z" level=info msg="Removing container crm-01-db-1"
+time="2026-10-27T10:46:03Z" level=warning msg="mem_limit is deprecated, use deploy.resources.limits.memory"
+time="2026-10-27T10:46:03Z" level=warning msg="Ignoring: service web: depends_on: db: [Required]"
+time="2026-10-27T10:46:03Z" level=warning msg="mem_limit is deprecated, use deploy.resources.limits.memory"
+time="2026-10-27T10:46:03Z" level=info msg="Removing network crm-01_default"

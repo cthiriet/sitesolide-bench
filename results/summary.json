@@ -1,0 +1,271 @@
+[
+  {
+    "setup": "sitesolide",
+    "run": "20261027-105759",
+    "memory_at_rest_mib": {
+      "0": {
+        "used": 1315.5390625,
+        "non_reclaimable": 221.66015625,
+        "samples": 37
+      },
+      "10": {
+        "used": 1462.625,
+        "non_reclaimable": 246.62109375,
+        "samples": 36
+      },
+      "20": {
+        "used": 2469.060546875,
+        "non_reclaimable": 1565.390625,
+        "samples": 36
+      },
+      "30": {
+        "used": 4312.69140625,
+        "non_reclaimable": 3385.853515625,
+        "samples": 36
+      }
+    },
+    "fixed_cost_mib": 1315.5390625,
+    "cost_per_app_mib": 99.905078125,
+    "cost_per_dynamic_app_mib": 142.5033203125,
+    "cost_per_app_by_class_mib": {
+      "docs": 14.70859375,
+      "wiki": 100.6435546875,
+      "crm": 184.3630859375
+    },
+    "non_reclaimable_per_app_mib": 105.47311197916666,
+    "non_reclaimable_by_class_mib": {
+      "docs": 2.49609375,
+      "wiki": 131.876953125,
+      "crm": 182.0462890625
+    },
+    "latency_at_full_load": {
+      "docs": {
+        "requests": 2882,
+        "p50_ms": 1.26543,
+        "p95_ms": 6.822063700000001,
+        "failed": 0.0
+      },
+      "wiki": {
+        "requests": 1241,
+        "p50_ms": 11.377344,
+        "p95_ms": 68.58324560000001,
+        "failed": 0.0
+      },
+      "crm": {
+        "requests": 1219,
+        "p50_ms": 12.404897999999998,
+        "p95_ms": 301.828202,
+        "failed": 0.0
+      }
+    },
+    "deploy_seconds_median": {
+      "docs": 2.1680724639999998,
+      "wiki": 15.221096976,
+      "crm": 17.9362244155
+    },
+    "disk_added_mib": 6722.609375,
+    "apps": 30,
+    "pss_mib": {
+      "0": {
+        "system": 116.2685546875,
+        "platform": 115.24609375
+      },
+      "10": {
+        "system": 119.3876953125,
+        "platform": 132.490234375
+      },
+      "20": {
+        "system": 122.7861328125,
+        "apps": 1317.521484375,
+        "platform": 132.5029296875
+      },
+      "30": {
+        "system": 118.8759765625,
+        "apps": 3120.6787109375,
+        "platform": 137.17578125
+      }
+    }
+  },
+  {
+    "setup": "docker",
+    "run": "20261027-113640",
+    "memory_at_rest_mib": {
+      "0": {
+        "used": 1021.4140625,
+        "non_reclaimable": 262.19140625,
+        "samples": 37
+      },
+      "10": {
+        "used": 1252.142578125,
+        "non_reclaimable": 455.201171875,
+        "samples": 36
+      },
+      "20": {
+        "used": 2745.693359375,
+        "non_reclaimable": 1894.41015625,
+        "samples": 36
+      },
+      "30": {
+        "used": 4921.001953125,
+        "non_reclaimable": 3981.80859375,
+        "samples": 36
+      }
+    },
+    "fixed_cost_mib": 1021.4140625,
+    "cost_per_app_mib": 129.98626302083332,
+    "cost_per_dynamic_app_mib": 183.44296875,
+    "cost_per_app_by_class_mib": {
+      "docs": 23.0728515625,
+      "wiki": 149.355078125,
+      "crm": 217.530859375
+    },
+    "non_reclaimable_per_app_mib": 123.98723958333333,
+    "non_reclaimable_by_class_mib": {
+      "docs": 19.3009765625,
+      "wiki": 143.9208984375,
+      "crm": 208.73984375
+    },
+    "latency_at_full_load": {
+      "docs": {
+        "requests": 2891,
+        "p50_ms": 2.47142,
+        "p95_ms": 8.0926638,
+        "failed": 0.0
+      },
+      "wiki": {
+        "requests": 1208,
+        "p50_ms": 11.644793,
+        "p95_ms": 69.09383425,
+        "failed": 0.0
+      },
+      "crm": {
+        "requests": 1181,
+        "p50_ms": 14.210550000000001,
+        "p95_ms": 302.89201360000004,
+        "failed": 0.0
+      }
+    },
+    "deploy_seconds_median": {
+      "docs": 0.4857613155,
+      "wiki": 1.2275041569999998,
+      "crm": 1.1966330645
+    },
+    "disk_added_mib": 3985.09765625,
+    "apps": 30,
+    "pss_mib": {
+      "0": {
+        "system": 128.8974609375,
+        "platform": 209.1552734375
+      },
+      "10": {
+        "system": 132.3095703125,
+        "platform": 282.2548828125,
+        "per-app runtime": 87.59765625,
+        "apps": 35.1396484375
+      },
+      "20": {
+        "system": 134.9130859375,
+        "platform": 352.1865234375,
+        "per-app runtime": 154.994140625,
+        "apps": 1340.1279296875
+      },
+      "30": {
+        "system": 136.4365234375,
+        "platform": 414.8134765625,
+        "per-app runtime": 293.79296875,
+        "apps": 3147.9833984375
+      }
+    }
+  },
+  {
+    "setup": "microvm",
+    "run": "20261027-120342",
+    "memory_at_rest_mib": {
+      "0": {
+        "used": 967.84765625,
+        "non_reclaimable": 204.7109375,
+        "samples": 37
+      },
+      "10": {
+        "used": 3082.78515625,
+        "non_reclaimable": 2274.52734375,
+        "samples": 37
+      },
+      "20": {
+        "used": 10162.337890625,
+        "non_reclaimable": 9216.01171875,
+        "samples": 36
+      },
+      "30": {
+        "used": 18446.3984375,
+        "non_reclaimable": 17422.08984375,
+        "samples": 37
+      }
+    },
+    "fixed_cost_mib": 967.84765625,
+    "cost_per_app_mib": 582.618359375,
+    "cost_per_dynamic_app_mib": 768.1806640625,
+    "cost_per_app_by_class_mib": {
+      "docs": 211.49375,
+      "wiki": 707.9552734375,
+      "crm": 828.4060546875
+    },
+    "non_reclaimable_per_app_mib": 573.9126302083333,
+    "non_reclaimable_by_class_mib": {
+      "docs": 206.981640625,
+      "wiki": 694.1484375,
+      "crm": 820.6078125
+    },
+    "latency_at_full_load": {
+      "docs": {
+        "requests": 2954,
+        "p50_ms": 2.6413800000000003,
+        "p95_ms": 7.8619674999999996,
+        "failed": 0.0
+      },
+      "wiki": {
+        "requests": 1247,
+        "p50_ms": 13.091124,
+        "p95_ms": 68.7144546,
+        "failed": 0.0
+      },
+      "crm": {
+        "requests": 1201,
+        "p50_ms": 16.472711,
+        "p95_ms": 307.6365012,
+        "failed": 0.0
+      }
+    },
+    "deploy_seconds_median": {
+      "docs": 1.401466926,
+      "wiki": 2.3689762224999997,
+      "crm": 3.2728735120000003
+    },
+    "disk_added_mib": 6206.5,
+    "apps": 30,
+    "pss_mib": {
+      "0": {
+        "system": 131.4814453125,
+        "platform": 106.435546875
+      },
+      "10": {
+        "system": 267.287109375,
+        "platform": 124.744140625,
+        "per-app runtime": 154.6201171875,
+        "apps": 1763.65234375
+      },
+      "20": {
+        "system": 383.109375,
+        "per-app runtime": 275.828125,
+        "apps": 8381.09375,
+        "platform": 135.4755859375
+      },
+      "30": {
+        "system": 605.66796875,
+        "per-app runtime": 535.6953125,
+        "apps": 16006.30078125,
+        "platform": 134.5302734375
+      }
+    }
+  }
+]

@@ -1,0 +1,35 @@
+pid,comm,cgroup,pss_kb,rss_kb
+1,systemd,/init.scope,8972,16320
+1052,systemd-network,/system.slice/systemd-networkd.service,5050,12356
+1075,dbus-daemon,/system.slice/dbus.service,2077,5120
+10904,next-server (v1,/system.slice/wiki-02.service,134295,184044
+1097,fail2ban-server,/system.slice/fail2ban.service,22391,34572
+12157,next-server (v1,/system.slice/wiki-03.service,135886,185596
+1295,bun,/system.slice/portal.service,12250,29668
+13359,next-server (v1,/system.slice/wiki-04.service,134492,184252
+1346,bun,/system.slice/sitesolide-api.service,9101,25560
+1349,caddy,/system.slice/caddy.service,77464,77472
+1363,bun,/system.slice/sitesolide-steward.service,17654,35900
+1412,bun,/system.slice/dashboard.service,19214,39160
+1420,systemd-logind,/system.slice/systemd-logind.service,2454,9160
+14546,next-server (v1,/system.slice/wiki-05.service,135515,185320
+1458,exim4,/system.slice/exim4.service,20155,23940
+1460,sshd,/system.slice/ssh.service,2873,7860
+1478,agetty,/system.slice/system-getty.slice/getty@tty1.service,402,2612
+1479,agetty,/system.slice/system-serial\x2dgetty.slice/serial-getty@ttyS0.service,445,2808
+1480,unattended-upgr,/system.slice/unattended-upgrades.service,14504,22428
+1543,run.sh,/system.slice/bench-run-sitesolide.service,802,3532
+1558,sample.sh,/system.slice/bench-run-sitesolide.service,700,3452
+15782,next-server (v1,/system.slice/wiki-06.service,133779,183536
+17098,next-server (v1,/system.slice/wiki-07.service,134729,184460
+18358,next-server (v1,/system.slice/wiki-08.service,135244,185004
+19620,next-server (v1,/system.slice/wiki-09.service,134645,184324
+20894,next-server (v1,/system.slice/wiki-10.service,135605,185336
+23418,sleep,/system.slice/bench-run-sitesolide.service,225,1948
+23420,pss.sh,/system.slice/bench-run-sitesolide.service,610,3524
+502,systemd-journal,/system.slice/systemd-journald.service,29929,52412
+560,systemd-resolve,/system.slice/systemd-resolved.service,6607,15060
+563,systemd-timesyn,/system.slice/systemd-timesyncd.service,2190,8632
+572,systemd-udevd,/system.slice/systemd-udevd.service/udev,4207,10672
+648,mdadm,/system.slice/mdmonitor.service,1140,2872
+9731,next-server (v1,/system.slice/wiki-01.service,134952,183928

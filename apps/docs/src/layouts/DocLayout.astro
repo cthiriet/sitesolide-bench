@@ -1,0 +1,76 @@
+---
+import type { MarkdownHeading } from 'astro';
+import Base from './Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Toc from '../components/Toc.astro';
+import { SECTIONS, docPath, loadDocs, readingMinutes, sectionPath, type DocEntry } from '../lib/docs';
+
+interface Props {
+  entry: DocEntry;
+  headings: MarkdownHeading[];
+}
+
+const { entry, headings } = Astro.props;
+const { bySection } = await loadDocs();
+const section = SECTIONS.find((candidate) => candidate.id === entry.data.section)!;
+const siblings = bySection.get(section.id) ?? [];
+const position = siblings.findIndex((page) => page.id === entry.id);
+const previous = position > 0 ? siblings[position - 1] : undefined;
+const next = position < siblings.length - 1 ? siblings[position + 1] : undefined;
+---
+
+<Base title={entry.data.title} description={entry.data.description} section={section.id}>
+  <div class="shell">
+    <Sidebar section={section} pages={siblings} currentId={entry.id} />
+
+    <main id="main" class="content">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Docs</a>
+        <span aria-hidden="true">/</span>
+        <a href={sectionPath(section)}>{section.title}</a>
+      </nav>
+
+      <header class="page-head">
+        <h1>{entry.data.title}</h1>
+        <p class="page-head__lede">{entry.data.description}</p>
+        <p class="page-head__meta">
+          <span>Updated {entry.data.updated}</span>
+          <span>Owner: {entry.data.owner}, {entry.data.team}</span>
+          <span>{readingMinutes(entry)} min read</span>
+        </p>
+        <ul class="tags">
+          {entry.data.tags.map((tag) => <li>{tag}</li>)}
+        </ul>
+      </header>
+
+      <article class="prose">
+        <slot />
+      </article>
+
+      <nav class="pager" aria-label="Previous and next page">
+        {
+          previous ? (
+            <a class="pager__link pager__link--previous" href={docPath(previous)} rel="prev">
+              <span class="pager__label">Previous</span>
+              <span class="pager__title">{previous.data.title}</span>
+            </a>
+          ) : (
+            <span />
+          )
+        }
+        {
+          next ? (
+            <a class="pager__link pager__link--next" href={docPath(next)} rel="next">
+              <span class="pager__label">Next</span>
+              <span class="pager__title">{next.data.title}</span>
+            </a>
+          ) : (
+            <span />
+          )
+        }
+      </nav>
+    </main>
+
+    <Toc headings={headings} />
+  </div>
+</Base>

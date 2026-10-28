@@ -1,0 +1,4 @@
+time="2026-10-27T10:42:01Z" level=info msg="Stopping container docs-01-web-1"
+time="2026-10-27T10:42:01Z" level=info msg="Removing container docs-01-web-1"
+time="2026-10-27T10:42:02Z" level=warning msg="mem_limit is deprecated, use deploy.resources.limits.memory"
+time="2026-10-27T10:42:02Z" level=info msg="Removing network docs-01_default"

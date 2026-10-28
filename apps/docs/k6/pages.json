@@ -1,0 +1,2056 @@
+{
+ "pages": [
+  {
+   "path": "/handbook/all-hands-meeting-guidelines/",
+   "images": [
+    "/images/img-049.png",
+    "/images/img-041.png",
+    "/images/img-080.png"
+   ]
+  },
+  {
+   "path": "/handbook/code-of-conduct-faq/",
+   "images": [
+    "/images/img-086.png",
+    "/images/img-075.png",
+    "/images/img-093.png"
+   ]
+  },
+  {
+   "path": "/handbook/code-of-conduct-overview/",
+   "images": [
+    "/images/img-026.png"
+   ]
+  },
+  {
+   "path": "/handbook/company-card-overview/",
+   "images": [
+    "/images/img-091.png"
+   ]
+  },
+  {
+   "path": "/handbook/conference-attendance-faq/",
+   "images": [
+    "/images/img-095.png"
+   ]
+  },
+  {
+   "path": "/handbook/conference-attendance-policy/",
+   "images": [
+    "/images/img-001.png"
+   ]
+  },
+  {
+   "path": "/handbook/customer-gift-checklist/",
+   "images": [
+    "/images/img-072.png",
+    "/images/img-068.png"
+   ]
+  },
+  {
+   "path": "/handbook/customer-gift-overview/",
+   "images": [
+    "/images/img-087.png"
+   ]
+  },
+  {
+   "path": "/handbook/document-retention-checklist/",
+   "images": [
+    "/images/img-097.png"
+   ]
+  },
+  {
+   "path": "/handbook/document-retention-overview/",
+   "images": [
+    "/images/img-037.png"
+   ]
+  },
+  {
+   "path": "/handbook/equipment-request-guidelines/",
+   "images": [
+    "/images/img-077.png",
+    "/images/img-063.png"
+   ]
+  },
+  {
+   "path": "/handbook/expense-reimbursement-faq/",
+   "images": [
+    "/images/img-032.png",
+    "/images/img-014.png"
+   ]
+  },
+  {
+   "path": "/handbook/expense-reimbursement-policy/",
+   "images": [
+    "/images/img-045.png"
+   ]
+  },
+  {
+   "path": "/handbook/internal-communication-checklist/",
+   "images": [
+    "/images/img-004.png"
+   ]
+  },
+  {
+   "path": "/handbook/internal-communication-overview/",
+   "images": [
+    "/images/img-035.png"
+   ]
+  },
+  {
+   "path": "/handbook/learning-budget-guidelines/",
+   "images": [
+    "/images/img-090.png",
+    "/images/img-022.png"
+   ]
+  },
+  {
+   "path": "/handbook/learning-budget-overview/",
+   "images": [
+    "/images/img-033.png",
+    "/images/img-025.png"
+   ]
+  },
+  {
+   "path": "/handbook/mail-and-parcels-faq/",
+   "images": [
+    "/images/img-007.png",
+    "/images/img-065.png"
+   ]
+  },
+  {
+   "path": "/handbook/meeting-etiquette-faq/",
+   "images": [
+    "/images/img-094.png"
+   ]
+  },
+  {
+   "path": "/handbook/meeting-etiquette-policy/",
+   "images": [
+    "/images/img-054.png"
+   ]
+  },
+  {
+   "path": "/handbook/open-source-contribution-overview/",
+   "images": [
+    "/images/img-059.png",
+    "/images/img-089.png",
+    "/images/img-078.png"
+   ]
+  },
+  {
+   "path": "/handbook/parental-leave-faq/",
+   "images": [
+    "/images/img-027.png",
+    "/images/img-076.png"
+   ]
+  },
+  {
+   "path": "/handbook/parental-leave-policy/",
+   "images": [
+    "/images/img-067.png",
+    "/images/img-010.png"
+   ]
+  },
+  {
+   "path": "/handbook/press-enquiry-policy/",
+   "images": [
+    "/images/img-011.png"
+   ]
+  },
+  {
+   "path": "/handbook/procurement-checklist/",
+   "images": [
+    "/images/img-069.png",
+    "/images/img-050.png"
+   ]
+  },
+  {
+   "path": "/handbook/procurement-faq/",
+   "images": [
+    "/images/img-074.png",
+    "/images/img-044.png"
+   ]
+  },
+  {
+   "path": "/handbook/public-holiday-cover-guidelines/",
+   "images": [
+    "/images/img-051.png"
+   ]
+  },
+  {
+   "path": "/handbook/public-holiday-cover-policy/",
+   "images": [
+    "/images/img-084.png"
+   ]
+  },
+  {
+   "path": "/handbook/quarterly-planning-guidelines/",
+   "images": [
+    "/images/img-057.png"
+   ]
+  },
+  {
+   "path": "/handbook/quarterly-planning-overview/",
+   "images": [
+    "/images/img-052.png"
+   ]
+  },
+  {
+   "path": "/handbook/relocation-checklist/",
+   "images": [
+    "/images/img-031.png"
+   ]
+  },
+  {
+   "path": "/handbook/relocation-overview/",
+   "images": [
+    "/images/img-030.png",
+    "/images/img-058.png"
+   ]
+  },
+  {
+   "path": "/handbook/remote-work-checklist/",
+   "images": [
+    "/images/img-055.png",
+    "/images/img-019.png"
+   ]
+  },
+  {
+   "path": "/handbook/sabbatical-faq/",
+   "images": [
+    "/images/img-082.png",
+    "/images/img-083.png"
+   ]
+  },
+  {
+   "path": "/handbook/sabbatical-guidelines/",
+   "images": [
+    "/images/img-013.png",
+    "/images/img-003.png",
+    "/images/img-012.png"
+   ]
+  },
+  {
+   "path": "/handbook/side-project-faq/",
+   "images": [
+    "/images/img-043.png",
+    "/images/img-071.png",
+    "/images/img-100.png"
+   ]
+  },
+  {
+   "path": "/handbook/side-project-guidelines/",
+   "images": [
+    "/images/img-079.png"
+   ]
+  },
+  {
+   "path": "/handbook/social-media-policy/",
+   "images": [
+    "/images/img-040.png"
+   ]
+  },
+  {
+   "path": "/handbook/team-offsite-policy/",
+   "images": [
+    "/images/img-062.png",
+    "/images/img-085.png",
+    "/images/img-073.png"
+   ]
+  },
+  {
+   "path": "/handbook/team-onboarding-faq/",
+   "images": [
+    "/images/img-006.png"
+   ]
+  },
+  {
+   "path": "/handbook/team-onboarding-policy/",
+   "images": [
+    "/images/img-048.png"
+   ]
+  },
+  {
+   "path": "/handbook/travel-booking-policy/",
+   "images": [
+    "/images/img-020.png",
+    "/images/img-021.png",
+    "/images/img-016.png"
+   ]
+  },
+  {
+   "path": "/handbook/vendor-onboarding-guidelines/",
+   "images": [
+    "/images/img-064.png",
+    "/images/img-024.png"
+   ]
+  },
+  {
+   "path": "/handbook/vendor-onboarding-overview/",
+   "images": [
+    "/images/img-047.png",
+    "/images/img-088.png"
+   ]
+  },
+  {
+   "path": "/handbook/visitor-access-guidelines/",
+   "images": [
+    "/images/img-017.png"
+   ]
+  },
+  {
+   "path": "/handbook/visitor-access-overview/",
+   "images": [
+    "/images/img-061.png",
+    "/images/img-036.png"
+   ]
+  },
+  {
+   "path": "/handbook/volunteer-day-overview/",
+   "images": [
+    "/images/img-002.png"
+   ]
+  },
+  {
+   "path": "/handbook/working-hours-guidelines/",
+   "images": [
+    "/images/img-098.png"
+   ]
+  },
+  {
+   "path": "/handbook/working-hours-overview/",
+   "images": [
+    "/images/img-096.png"
+   ]
+  },
+  {
+   "path": "/handbook/workspace-booking-policy/",
+   "images": [
+    "/images/img-038.png",
+    "/images/img-070.png",
+    "/images/img-056.png"
+   ]
+  },
+  {
+   "path": "/engineering/api-versioning-architecture/",
+   "images": [
+    "/images/img-081.png",
+    "/images/img-015.png"
+   ]
+  },
+  {
+   "path": "/engineering/api-versioning-reference/",
+   "images": [
+    "/images/img-066.png"
+   ]
+  },
+  {
+   "path": "/engineering/authentication-service-reference/",
+   "images": [
+    "/images/img-009.png",
+    "/images/img-039.png"
+   ]
+  },
+  {
+   "path": "/engineering/authentication-service-standards/",
+   "images": [
+    "/images/img-060.png"
+   ]
+  },
+  {
+   "path": "/engineering/background-job-guide/",
+   "images": [
+    "/images/img-046.png"
+   ]
+  },
+  {
+   "path": "/engineering/billing-pipeline-architecture/",
+   "images": [
+    "/images/img-092.png",
+    "/images/img-029.png"
+   ]
+  },
+  {
+   "path": "/engineering/billing-pipeline-design-notes/",
+   "images": [
+    "/images/img-099.png",
+    "/images/img-008.png",
+    "/images/img-023.png"
+   ]
+  },
+  {
+   "path": "/engineering/caching-layer-architecture/",
+   "images": [
+    "/images/img-034.png",
+    "/images/img-018.png",
+    "/images/img-005.png"
+   ]
+  },
+  {
+   "path": "/engineering/caching-layer-guide/",
+   "images": [
+    "/images/img-042.png"
+   ]
+  },
+  {
+   "path": "/engineering/ci-pipeline-guide/",
+   "images": [
+    "/images/img-053.png",
+    "/images/img-028.png",
+    "/images/img-056.png"
+   ]
+  },
+  {
+   "path": "/engineering/ci-pipeline-reference/",
+   "images": [
+    "/images/img-092.png",
+    "/images/img-086.png"
+   ]
+  },
+  {
+   "path": "/engineering/code-review-standards/",
+   "images": [
+    "/images/img-004.png",
+    "/images/img-036.png"
+   ]
+  },
+  {
+   "path": "/engineering/cron-job-reference/",
+   "images": [
+    "/images/img-049.png",
+    "/images/img-033.png",
+    "/images/img-075.png"
+   ]
+  },
+  {
+   "path": "/engineering/data-warehouse-architecture/",
+   "images": [
+    "/images/img-052.png",
+    "/images/img-039.png"
+   ]
+  },
+  {
+   "path": "/engineering/data-warehouse-standards/",
+   "images": [
+    "/images/img-044.png",
+    "/images/img-078.png",
+    "/images/img-064.png"
+   ]
+  },
+  {
+   "path": "/engineering/dependency-update-architecture/",
+   "images": [
+    "/images/img-030.png",
+    "/images/img-018.png"
+   ]
+  },
+  {
+   "path": "/engineering/dependency-update-reference/",
+   "images": [
+    "/images/img-046.png",
+    "/images/img-090.png",
+    "/images/img-071.png"
+   ]
+  },
+  {
+   "path": "/engineering/distributed-tracing-guide/",
+   "images": [
+    "/images/img-014.png",
+    "/images/img-057.png"
+   ]
+  },
+  {
+   "path": "/engineering/distributed-tracing-standards/",
+   "images": [
+    "/images/img-079.png"
+   ]
+  },
+  {
+   "path": "/engineering/email-sending-reference/",
+   "images": [
+    "/images/img-002.png",
+    "/images/img-081.png",
+    "/images/img-021.png"
+   ]
+  },
+  {
+   "path": "/engineering/email-sending-standards/",
+   "images": [
+    "/images/img-019.png",
+    "/images/img-008.png",
+    "/images/img-060.png"
+   ]
+  },
+  {
+   "path": "/engineering/error-budget-design-notes/",
+   "images": [
+    "/images/img-020.png",
+    "/images/img-005.png"
+   ]
+  },
+  {
+   "path": "/engineering/error-budget-standards/",
+   "images": [
+    "/images/img-095.png"
+   ]
+  },
+  {
+   "path": "/engineering/event-bus-design-notes/",
+   "images": [
+    "/images/img-026.png",
+    "/images/img-091.png"
+   ]
+  },
+  {
+   "path": "/engineering/event-bus-standards/",
+   "images": [
+    "/images/img-065.png",
+    "/images/img-045.png"
+   ]
+  },
+  {
+   "path": "/engineering/feature-flag-reference/",
+   "images": [
+    "/images/img-024.png",
+    "/images/img-054.png"
+   ]
+  },
+  {
+   "path": "/engineering/file-storage-reference/",
+   "images": [
+    "/images/img-080.png"
+   ]
+  },
+  {
+   "path": "/engineering/file-storage-standards/",
+   "images": [
+    "/images/img-025.png"
+   ]
+  },
+  {
+   "path": "/engineering/frontend-framework-architecture/",
+   "images": [
+    "/images/img-050.png",
+    "/images/img-053.png",
+    "/images/img-085.png"
+   ]
+  },
+  {
+   "path": "/engineering/frontend-framework-design-notes/",
+   "images": [
+    "/images/img-096.png",
+    "/images/img-007.png"
+   ]
+  },
+  {
+   "path": "/engineering/infrastructure-as-code-guide/",
+   "images": [
+    "/images/img-003.png",
+    "/images/img-055.png",
+    "/images/img-015.png"
+   ]
+  },
+  {
+   "path": "/engineering/infrastructure-as-code-standards/",
+   "images": [
+    "/images/img-099.png",
+    "/images/img-083.png"
+   ]
+  },
+  {
+   "path": "/engineering/load-testing-design-notes/",
+   "images": [
+    "/images/img-084.png",
+    "/images/img-061.png"
+   ]
+  },
+  {
+   "path": "/engineering/load-testing-guide/",
+   "images": [
+    "/images/img-043.png"
+   ]
+  },
+  {
+   "path": "/engineering/local-development-environment-architecture/",
+   "images": [
+    "/images/img-097.png",
+    "/images/img-037.png"
+   ]
+  },
+  {
+   "path": "/engineering/local-development-environment-design-notes/",
+   "images": [
+    "/images/img-076.png"
+   ]
+  },
+  {
+   "path": "/engineering/metrics-collection-architecture/",
+   "images": [
+    "/images/img-013.png",
+    "/images/img-069.png"
+   ]
+  },
+  {
+   "path": "/engineering/monorepo-tooling-architecture/",
+   "images": [
+    "/images/img-059.png",
+    "/images/img-009.png"
+   ]
+  },
+  {
+   "path": "/engineering/monorepo-tooling-guide/",
+   "images": [
+    "/images/img-034.png",
+    "/images/img-031.png"
+   ]
+  },
+  {
+   "path": "/engineering/observability-stack-standards/",
+   "images": [
+    "/images/img-027.png",
+    "/images/img-077.png"
+   ]
+  },
+  {
+   "path": "/engineering/pull-request-template-guide/",
+   "images": [
+    "/images/img-062.png",
+    "/images/img-067.png"
+   ]
+  },
+  {
+   "path": "/engineering/queue-worker-design-notes/",
+   "images": [
+    "/images/img-022.png"
+   ]
+  },
+  {
+   "path": "/engineering/queue-worker-guide/",
+   "images": [
+    "/images/img-072.png",
+    "/images/img-048.png"
+   ]
+  },
+  {
+   "path": "/engineering/rate-limiting-design-notes/",
+   "images": [
+    "/images/img-041.png",
+    "/images/img-035.png",
+    "/images/img-093.png"
+   ]
+  },
+  {
+   "path": "/engineering/rate-limiting-standards/",
+   "images": [
+    "/images/img-094.png",
+    "/images/img-063.png"
+   ]
+  },
+  {
+   "path": "/engineering/release-train-reference/",
+   "images": [
+    "/images/img-006.png",
+    "/images/img-047.png",
+    "/images/img-012.png"
+   ]
+  },
+  {
+   "path": "/engineering/schema-design-reference/",
+   "images": [
+    "/images/img-001.png",
+    "/images/img-038.png"
+   ]
+  },
+  {
+   "path": "/engineering/schema-design-standards/",
+   "images": [
+    "/images/img-066.png"
+   ]
+  },
+  {
+   "path": "/engineering/search-indexing-design-notes/",
+   "images": [
+    "/images/img-016.png"
+   ]
+  },
+  {
+   "path": "/engineering/search-indexing-guide/",
+   "images": [
+    "/images/img-087.png",
+    "/images/img-017.png",
+    "/images/img-089.png"
+   ]
+  },
+  {
+   "path": "/engineering/secrets-management-architecture/",
+   "images": [
+    "/images/img-098.png",
+    "/images/img-051.png"
+   ]
+  },
+  {
+   "path": "/engineering/secrets-management-standards/",
+   "images": [
+    "/images/img-011.png",
+    "/images/img-040.png"
+   ]
+  },
+  {
+   "path": "/engineering/service-mesh-design-notes/",
+   "images": [
+    "/images/img-058.png",
+    "/images/img-074.png"
+   ]
+  },
+  {
+   "path": "/engineering/service-mesh-guide/",
+   "images": [
+    "/images/img-068.png",
+    "/images/img-082.png"
+   ]
+  },
+  {
+   "path": "/engineering/structured-logging-architecture/",
+   "images": [
+    "/images/img-029.png",
+    "/images/img-010.png"
+   ]
+  },
+  {
+   "path": "/engineering/structured-logging-design-notes/",
+   "images": [
+    "/images/img-073.png",
+    "/images/img-028.png"
+   ]
+  },
+  {
+   "path": "/engineering/testing-strategy-architecture/",
+   "images": [
+    "/images/img-070.png",
+    "/images/img-100.png"
+   ]
+  },
+  {
+   "path": "/engineering/testing-strategy-standards/",
+   "images": [
+    "/images/img-042.png",
+    "/images/img-032.png"
+   ]
+  },
+  {
+   "path": "/engineering/webhook-delivery-design-notes/",
+   "images": [
+    "/images/img-088.png"
+   ]
+  },
+  {
+   "path": "/engineering/webhook-delivery-guide/",
+   "images": [
+    "/images/img-023.png"
+   ]
+  },
+  {
+   "path": "/runbooks/api-rate-limit-breach-runbook/",
+   "images": [
+    "/images/img-036.png",
+    "/images/img-024.png"
+   ]
+  },
+  {
+   "path": "/runbooks/backup-restore-checklist/",
+   "images": [
+    "/images/img-083.png",
+    "/images/img-021.png"
+   ]
+  },
+  {
+   "path": "/runbooks/backup-restore-runbook/",
+   "images": [
+    "/images/img-064.png",
+    "/images/img-080.png",
+    "/images/img-049.png"
+   ]
+  },
+  {
+   "path": "/runbooks/cdn-purge-checklist/",
+   "images": [
+    "/images/img-061.png",
+    "/images/img-006.png",
+    "/images/img-014.png"
+   ]
+  },
+  {
+   "path": "/runbooks/cdn-purge-troubleshooting-guide/",
+   "images": [
+    "/images/img-094.png",
+    "/images/img-001.png"
+   ]
+  },
+  {
+   "path": "/runbooks/certificate-renewal-escalation-path/",
+   "images": [
+    "/images/img-069.png",
+    "/images/img-073.png"
+   ]
+  },
+  {
+   "path": "/runbooks/certificate-renewal-recovery-steps/",
+   "images": [
+    "/images/img-016.png"
+   ]
+  },
+  {
+   "path": "/runbooks/credential-rotation-checklist/",
+   "images": [
+    "/images/img-095.png",
+    "/images/img-065.png",
+    "/images/img-039.png"
+   ]
+  },
+  {
+   "path": "/runbooks/credential-rotation-runbook/",
+   "images": [
+    "/images/img-009.png",
+    "/images/img-071.png",
+    "/images/img-046.png"
+   ]
+  },
+  {
+   "path": "/runbooks/data-import-failure-recovery-steps/",
+   "images": [
+    "/images/img-062.png"
+   ]
+  },
+  {
+   "path": "/runbooks/data-import-failure-troubleshooting-guide/",
+   "images": [
+    "/images/img-030.png"
+   ]
+  },
+  {
+   "path": "/runbooks/database-failover-checklist/",
+   "images": [
+    "/images/img-017.png"
+   ]
+  },
+  {
+   "path": "/runbooks/deploy-rollback-escalation-path/",
+   "images": [
+    "/images/img-081.png",
+    "/images/img-088.png",
+    "/images/img-011.png"
+   ]
+  },
+  {
+   "path": "/runbooks/deploy-rollback-recovery-steps/",
+   "images": [
+    "/images/img-070.png",
+    "/images/img-033.png"
+   ]
+  },
+  {
+   "path": "/runbooks/disk-pressure-runbook/",
+   "images": [
+    "/images/img-068.png",
+    "/images/img-035.png"
+   ]
+  },
+  {
+   "path": "/runbooks/dns-outage-runbook/",
+   "images": [
+    "/images/img-026.png",
+    "/images/img-004.png",
+    "/images/img-022.png"
+   ]
+  },
+  {
+   "path": "/runbooks/elevated-error-rate-escalation-path/",
+   "images": [
+    "/images/img-063.png",
+    "/images/img-038.png",
+    "/images/img-013.png"
+   ]
+  },
+  {
+   "path": "/runbooks/elevated-error-rate-runbook/",
+   "images": [
+    "/images/img-037.png"
+   ]
+  },
+  {
+   "path": "/runbooks/email-delivery-delay-checklist/",
+   "images": [
+    "/images/img-076.png",
+    "/images/img-025.png"
+   ]
+  },
+  {
+   "path": "/runbooks/email-delivery-delay-troubleshooting-guide/",
+   "images": [
+    "/images/img-099.png"
+   ]
+  },
+  {
+   "path": "/runbooks/expired-token-checklist/",
+   "images": [
+    "/images/img-002.png"
+   ]
+  },
+  {
+   "path": "/runbooks/expired-token-recovery-steps/",
+   "images": [
+    "/images/img-020.png",
+    "/images/img-003.png"
+   ]
+  },
+  {
+   "path": "/runbooks/feature-flag-misfire-checklist/",
+   "images": [
+    "/images/img-078.png"
+   ]
+  },
+  {
+   "path": "/runbooks/feature-flag-misfire-runbook/",
+   "images": [
+    "/images/img-060.png",
+    "/images/img-055.png",
+    "/images/img-079.png"
+   ]
+  },
+  {
+   "path": "/runbooks/full-table-lock-checklist/",
+   "images": [
+    "/images/img-054.png",
+    "/images/img-015.png",
+    "/images/img-067.png"
+   ]
+  },
+  {
+   "path": "/runbooks/full-table-lock-recovery-steps/",
+   "images": [
+    "/images/img-087.png",
+    "/images/img-027.png",
+    "/images/img-053.png"
+   ]
+  },
+  {
+   "path": "/runbooks/latency-regression-troubleshooting-guide/",
+   "images": [
+    "/images/img-040.png"
+   ]
+  },
+  {
+   "path": "/runbooks/load-balancer-misconfiguration-escalation-path/",
+   "images": [
+    "/images/img-032.png"
+   ]
+  },
+  {
+   "path": "/runbooks/log-pipeline-stall-recovery-steps/",
+   "images": [
+    "/images/img-005.png"
+   ]
+  },
+  {
+   "path": "/runbooks/log-pipeline-stall-runbook/",
+   "images": [
+    "/images/img-097.png",
+    "/images/img-057.png",
+    "/images/img-007.png"
+   ]
+  },
+  {
+   "path": "/runbooks/login-failure-escalation-path/",
+   "images": [
+    "/images/img-098.png",
+    "/images/img-044.png"
+   ]
+  },
+  {
+   "path": "/runbooks/memory-leak-escalation-path/",
+   "images": [
+    "/images/img-018.png"
+   ]
+  },
+  {
+   "path": "/runbooks/memory-leak-runbook/",
+   "images": [
+    "/images/img-056.png",
+    "/images/img-075.png"
+   ]
+  },
+  {
+   "path": "/runbooks/node-drain-checklist/",
+   "images": [
+    "/images/img-010.png",
+    "/images/img-050.png",
+    "/images/img-047.png"
+   ]
+  },
+  {
+   "path": "/runbooks/node-drain-escalation-path/",
+   "images": [
+    "/images/img-092.png"
+   ]
+  },
+  {
+   "path": "/runbooks/object-storage-outage-escalation-path/",
+   "images": [
+    "/images/img-089.png",
+    "/images/img-091.png"
+   ]
+  },
+  {
+   "path": "/runbooks/object-storage-outage-runbook/",
+   "images": [
+    "/images/img-023.png",
+    "/images/img-019.png"
+   ]
+  },
+  {
+   "path": "/runbooks/payment-provider-timeout-escalation-path/",
+   "images": [
+    "/images/img-090.png",
+    "/images/img-058.png"
+   ]
+  },
+  {
+   "path": "/runbooks/payment-provider-timeout-runbook/",
+   "images": [
+    "/images/img-072.png",
+    "/images/img-085.png"
+   ]
+  },
+  {
+   "path": "/runbooks/queue-backlog-escalation-path/",
+   "images": [
+    "/images/img-041.png",
+    "/images/img-077.png",
+    "/images/img-059.png"
+   ]
+  },
+  {
+   "path": "/runbooks/queue-backlog-recovery-steps/",
+   "images": [
+    "/images/img-066.png",
+    "/images/img-082.png"
+   ]
+  },
+  {
+   "path": "/runbooks/replication-lag-escalation-path/",
+   "images": [
+    "/images/img-028.png",
+    "/images/img-042.png"
+   ]
+  },
+  {
+   "path": "/runbooks/replication-lag-recovery-steps/",
+   "images": [
+    "/images/img-031.png"
+   ]
+  },
+  {
+   "path": "/runbooks/runaway-cron-job-checklist/",
+   "images": [
+    "/images/img-100.png",
+    "/images/img-093.png"
+   ]
+  },
+  {
+   "path": "/runbooks/runaway-cron-job-troubleshooting-guide/",
+   "images": [
+    "/images/img-043.png",
+    "/images/img-052.png"
+   ]
+  },
+  {
+   "path": "/runbooks/search-cluster-red-status-escalation-path/",
+   "images": [
+    "/images/img-074.png"
+   ]
+  },
+  {
+   "path": "/runbooks/stuck-deployment-recovery-steps/",
+   "images": [
+    "/images/img-045.png",
+    "/images/img-084.png",
+    "/images/img-086.png"
+   ]
+  },
+  {
+   "path": "/runbooks/stuck-deployment-runbook/",
+   "images": [
+    "/images/img-034.png",
+    "/images/img-048.png"
+   ]
+  },
+  {
+   "path": "/runbooks/webhook-retry-storm-recovery-steps/",
+   "images": [
+    "/images/img-012.png"
+   ]
+  },
+  {
+   "path": "/runbooks/webhook-retry-storm-troubleshooting-guide/",
+   "images": [
+    "/images/img-008.png"
+   ]
+  },
+  {
+   "path": "/product/accessibility-faq/",
+   "images": [
+    "/images/img-029.png"
+   ]
+  },
+  {
+   "path": "/product/accessibility-roadmap/",
+   "images": [
+    "/images/img-051.png",
+    "/images/img-096.png",
+    "/images/img-043.png"
+   ]
+  },
+  {
+   "path": "/product/activity-feed-faq/",
+   "images": [
+    "/images/img-072.png",
+    "/images/img-093.png"
+   ]
+  },
+  {
+   "path": "/product/activity-feed-release-notes/",
+   "images": [
+    "/images/img-036.png"
+   ]
+  },
+  {
+   "path": "/product/approval-flow-release-notes/",
+   "images": [
+    "/images/img-076.png"
+   ]
+  },
+  {
+   "path": "/product/approval-flow-roadmap/",
+   "images": [
+    "/images/img-007.png",
+    "/images/img-044.png"
+   ]
+  },
+  {
+   "path": "/product/audit-log-overview/",
+   "images": [
+    "/images/img-079.png",
+    "/images/img-020.png"
+   ]
+  },
+  {
+   "path": "/product/automation-rule-overview/",
+   "images": [
+    "/images/img-057.png"
+   ]
+  },
+  {
+   "path": "/product/billing-portal-faq/",
+   "images": [
+    "/images/img-012.png"
+   ]
+  },
+  {
+   "path": "/product/billing-portal-roadmap/",
+   "images": [
+    "/images/img-083.png",
+    "/images/img-085.png"
+   ]
+  },
+  {
+   "path": "/product/bulk-edit-overview/",
+   "images": [
+    "/images/img-054.png",
+    "/images/img-055.png"
+   ]
+  },
+  {
+   "path": "/product/comment-thread-faq/",
+   "images": [
+    "/images/img-087.png"
+   ]
+  },
+  {
+   "path": "/product/custom-field-faq/",
+   "images": [
+    "/images/img-064.png",
+    "/images/img-037.png"
+   ]
+  },
+  {
+   "path": "/product/custom-field-specification/",
+   "images": [
+    "/images/img-062.png",
+    "/images/img-005.png",
+    "/images/img-042.png"
+   ]
+  },
+  {
+   "path": "/product/dashboard-faq/",
+   "images": [
+    "/images/img-080.png",
+    "/images/img-013.png"
+   ]
+  },
+  {
+   "path": "/product/data-export-overview/",
+   "images": [
+    "/images/img-074.png"
+   ]
+  },
+  {
+   "path": "/product/data-export-release-notes/",
+   "images": [
+    "/images/img-018.png",
+    "/images/img-098.png",
+    "/images/img-003.png"
+   ]
+  },
+  {
+   "path": "/product/global-search-roadmap/",
+   "images": [
+    "/images/img-090.png",
+    "/images/img-070.png"
+   ]
+  },
+  {
+   "path": "/product/global-search-specification/",
+   "images": [
+    "/images/img-066.png"
+   ]
+  },
+  {
+   "path": "/product/import-wizard-overview/",
+   "images": [
+    "/images/img-026.png"
+   ]
+  },
+  {
+   "path": "/product/integration-marketplace-overview/",
+   "images": [
+    "/images/img-052.png",
+    "/images/img-071.png"
+   ]
+  },
+  {
+   "path": "/product/integration-marketplace-roadmap/",
+   "images": [
+    "/images/img-053.png"
+   ]
+  },
+  {
+   "path": "/product/localization-faq/",
+   "images": [
+    "/images/img-015.png",
+    "/images/img-058.png"
+   ]
+  },
+  {
+   "path": "/product/localization-release-notes/",
+   "images": [
+    "/images/img-021.png",
+    "/images/img-014.png"
+   ]
+  },
+  {
+   "path": "/product/mobile-app-faq/",
+   "images": [
+    "/images/img-077.png",
+    "/images/img-002.png"
+   ]
+  },
+  {
+   "path": "/product/mobile-app-release-notes/",
+   "images": [
+    "/images/img-060.png",
+    "/images/img-075.png"
+   ]
+  },
+  {
+   "path": "/product/notification-centre-overview/",
+   "images": [
+    "/images/img-019.png",
+    "/images/img-096.png"
+   ]
+  },
+  {
+   "path": "/product/notification-centre-roadmap/",
+   "images": [
+    "/images/img-030.png",
+    "/images/img-004.png"
+   ]
+  },
+  {
+   "path": "/product/onboarding-flow-faq/",
+   "images": [
+    "/images/img-029.png"
+   ]
+  },
+  {
+   "path": "/product/onboarding-flow-roadmap/",
+   "images": [
+    "/images/img-100.png",
+    "/images/img-016.png",
+    "/images/img-092.png"
+   ]
+  },
+  {
+   "path": "/product/public-api-release-notes/",
+   "images": [
+    "/images/img-017.png",
+    "/images/img-061.png"
+   ]
+  },
+  {
+   "path": "/product/public-api-roadmap/",
+   "images": [
+    "/images/img-041.png",
+    "/images/img-034.png"
+   ]
+  },
+  {
+   "path": "/product/public-link-specification/",
+   "images": [
+    "/images/img-032.png",
+    "/images/img-086.png"
+   ]
+  },
+  {
+   "path": "/product/report-builder-overview/",
+   "images": [
+    "/images/img-089.png",
+    "/images/img-024.png"
+   ]
+  },
+  {
+   "path": "/product/saved-view-release-notes/",
+   "images": [
+    "/images/img-006.png"
+   ]
+  },
+  {
+   "path": "/product/saved-view-specification/",
+   "images": [
+    "/images/img-091.png"
+   ]
+  },
+  {
+   "path": "/product/single-sign-on-overview/",
+   "images": [
+    "/images/img-033.png",
+    "/images/img-035.png",
+    "/images/img-081.png"
+   ]
+  },
+  {
+   "path": "/product/team-and-role-overview/",
+   "images": [
+    "/images/img-095.png",
+    "/images/img-010.png",
+    "/images/img-094.png"
+   ]
+  },
+  {
+   "path": "/product/template-gallery-roadmap/",
+   "images": [
+    "/images/img-001.png",
+    "/images/img-023.png",
+    "/images/img-082.png"
+   ]
+  },
+  {
+   "path": "/product/template-gallery-specification/",
+   "images": [
+    "/images/img-099.png",
+    "/images/img-031.png",
+    "/images/img-009.png"
+   ]
+  },
+  {
+   "path": "/product/usage-limit-release-notes/",
+   "images": [
+    "/images/img-022.png"
+   ]
+  },
+  {
+   "path": "/product/usage-limit-roadmap/",
+   "images": [
+    "/images/img-067.png",
+    "/images/img-051.png"
+   ]
+  },
+  {
+   "path": "/product/webhook-overview/",
+   "images": [
+    "/images/img-039.png",
+    "/images/img-046.png"
+   ]
+  },
+  {
+   "path": "/product/workspace-release-notes/",
+   "images": [
+    "/images/img-084.png"
+   ]
+  },
+  {
+   "path": "/product/workspace-roadmap/",
+   "images": [
+    "/images/img-059.png",
+    "/images/img-063.png"
+   ]
+  },
+  {
+   "path": "/people/benefits-enrolment-guide/",
+   "images": [
+    "/images/img-045.png",
+    "/images/img-047.png"
+   ]
+  },
+  {
+   "path": "/people/career-ladder-guide/",
+   "images": [
+    "/images/img-050.png",
+    "/images/img-065.png"
+   ]
+  },
+  {
+   "path": "/people/compensation-band-overview/",
+   "images": [
+    "/images/img-011.png"
+   ]
+  },
+  {
+   "path": "/people/contractor-engagement-guide/",
+   "images": [
+    "/images/img-025.png",
+    "/images/img-069.png",
+    "/images/img-027.png"
+   ]
+  },
+  {
+   "path": "/people/contractor-engagement-overview/",
+   "images": [
+    "/images/img-078.png"
+   ]
+  },
+  {
+   "path": "/people/engagement-survey-overview/",
+   "images": [
+    "/images/img-028.png",
+    "/images/img-008.png"
+   ]
+  },
+  {
+   "path": "/people/engagement-survey-playbook/",
+   "images": [
+    "/images/img-038.png",
+    "/images/img-056.png"
+   ]
+  },
+  {
+   "path": "/people/equity-grant-faq/",
+   "images": [
+    "/images/img-048.png",
+    "/images/img-073.png",
+    "/images/img-097.png"
+   ]
+  },
+  {
+   "path": "/people/equity-grant-overview/",
+   "images": [
+    "/images/img-040.png",
+    "/images/img-068.png",
+    "/images/img-088.png"
+   ]
+  },
+  {
+   "path": "/people/feedback-cycle-guide/",
+   "images": [
+    "/images/img-049.png",
+    "/images/img-021.png",
+    "/images/img-054.png"
+   ]
+  },
+  {
+   "path": "/people/feedback-cycle-overview/",
+   "images": [
+    "/images/img-067.png",
+    "/images/img-009.png",
+    "/images/img-027.png"
+   ]
+  },
+  {
+   "path": "/people/hiring-faq/",
+   "images": [
+    "/images/img-061.png"
+   ]
+  },
+  {
+   "path": "/people/hiring-overview/",
+   "images": [
+    "/images/img-003.png",
+    "/images/img-012.png"
+   ]
+  },
+  {
+   "path": "/people/inclusion-programme-faq/",
+   "images": [
+    "/images/img-014.png"
+   ]
+  },
+  {
+   "path": "/people/inclusion-programme-overview/",
+   "images": [
+    "/images/img-086.png"
+   ]
+  },
+  {
+   "path": "/people/internship-guide/",
+   "images": [
+    "/images/img-008.png",
+    "/images/img-083.png",
+    "/images/img-069.png"
+   ]
+  },
+  {
+   "path": "/people/internship-process/",
+   "images": [
+    "/images/img-032.png",
+    "/images/img-030.png",
+    "/images/img-037.png"
+   ]
+  },
+  {
+   "path": "/people/interview-loop-guide/",
+   "images": [
+    "/images/img-031.png",
+    "/images/img-019.png"
+   ]
+  },
+  {
+   "path": "/people/interview-loop-overview/",
+   "images": [
+    "/images/img-035.png"
+   ]
+  },
+  {
+   "path": "/people/learning-path-playbook/",
+   "images": [
+    "/images/img-074.png"
+   ]
+  },
+  {
+   "path": "/people/manager-training-playbook/",
+   "images": [
+    "/images/img-042.png",
+    "/images/img-056.png"
+   ]
+  },
+  {
+   "path": "/people/manager-training-process/",
+   "images": [
+    "/images/img-070.png"
+   ]
+  },
+  {
+   "path": "/people/mentorship-guide/",
+   "images": [
+    "/images/img-055.png"
+   ]
+  },
+  {
+   "path": "/people/mentorship-process/",
+   "images": [
+    "/images/img-081.png",
+    "/images/img-013.png"
+   ]
+  },
+  {
+   "path": "/people/offboarding-overview/",
+   "images": [
+    "/images/img-075.png"
+   ]
+  },
+  {
+   "path": "/people/offboarding-playbook/",
+   "images": [
+    "/images/img-010.png"
+   ]
+  },
+  {
+   "path": "/people/onboarding-buddy-guide/",
+   "images": [
+    "/images/img-006.png",
+    "/images/img-059.png"
+   ]
+  },
+  {
+   "path": "/people/one-to-one-meeting-faq/",
+   "images": [
+    "/images/img-020.png"
+   ]
+  },
+  {
+   "path": "/people/one-to-one-meeting-process/",
+   "images": [
+    "/images/img-050.png"
+   ]
+  },
+  {
+   "path": "/people/org-chart-guide/",
+   "images": [
+    "/images/img-053.png",
+    "/images/img-048.png"
+   ]
+  },
+  {
+   "path": "/people/payroll-calendar-guide/",
+   "images": [
+    "/images/img-088.png"
+   ]
+  },
+  {
+   "path": "/people/payroll-calendar-overview/",
+   "images": [
+    "/images/img-016.png",
+    "/images/img-085.png"
+   ]
+  },
+  {
+   "path": "/people/performance-review-guide/",
+   "images": [
+    "/images/img-029.png",
+    "/images/img-064.png",
+    "/images/img-015.png"
+   ]
+  },
+  {
+   "path": "/people/probation-period-guide/",
+   "images": [
+    "/images/img-092.png"
+   ]
+  },
+  {
+   "path": "/people/recognition-faq/",
+   "images": [
+    "/images/img-044.png",
+    "/images/img-039.png",
+    "/images/img-025.png"
+   ]
+  },
+  {
+   "path": "/people/recognition-playbook/",
+   "images": [
+    "/images/img-049.png"
+   ]
+  },
+  {
+   "path": "/people/referral-bonus-overview/",
+   "images": [
+    "/images/img-007.png"
+   ]
+  },
+  {
+   "path": "/people/referral-bonus-playbook/",
+   "images": [
+    "/images/img-099.png"
+   ]
+  },
+  {
+   "path": "/people/remote-hiring-playbook/",
+   "images": [
+    "/images/img-087.png",
+    "/images/img-078.png",
+    "/images/img-091.png"
+   ]
+  },
+  {
+   "path": "/people/return-to-work-overview/",
+   "images": [
+    "/images/img-060.png"
+   ]
+  },
+  {
+   "path": "/people/team-retrospective-process/",
+   "images": [
+    "/images/img-004.png",
+    "/images/img-063.png"
+   ]
+  },
+  {
+   "path": "/people/team-ritual-faq/",
+   "images": [
+    "/images/img-052.png",
+    "/images/img-090.png",
+    "/images/img-071.png"
+   ]
+  },
+  {
+   "path": "/people/team-ritual-guide/",
+   "images": [
+    "/images/img-097.png"
+   ]
+  },
+  {
+   "path": "/people/wellbeing-guide/",
+   "images": [
+    "/images/img-002.png",
+    "/images/img-011.png",
+    "/images/img-057.png"
+   ]
+  },
+  {
+   "path": "/people/wellbeing-playbook/",
+   "images": [
+    "/images/img-018.png",
+    "/images/img-047.png",
+    "/images/img-043.png"
+   ]
+  },
+  {
+   "path": "/security/access-control-control-description/",
+   "images": [
+    "/images/img-058.png",
+    "/images/img-028.png",
+    "/images/img-093.png"
+   ]
+  },
+  {
+   "path": "/security/access-control-standard/",
+   "images": [
+    "/images/img-038.png"
+   ]
+  },
+  {
+   "path": "/security/audit-preparation-guideline/",
+   "images": [
+    "/images/img-095.png",
+    "/images/img-077.png"
+   ]
+  },
+  {
+   "path": "/security/audit-preparation-standard/",
+   "images": [
+    "/images/img-040.png"
+   ]
+  },
+  {
+   "path": "/security/backup-protection-procedure/",
+   "images": [
+    "/images/img-065.png",
+    "/images/img-005.png"
+   ]
+  },
+  {
+   "path": "/security/backup-protection-standard/",
+   "images": [
+    "/images/img-024.png"
+   ]
+  },
+  {
+   "path": "/security/bug-bounty-control-description/",
+   "images": [
+    "/images/img-082.png",
+    "/images/img-066.png"
+   ]
+  },
+  {
+   "path": "/security/bug-bounty-standard/",
+   "images": [
+    "/images/img-001.png"
+   ]
+  },
+  {
+   "path": "/security/change-approval-procedure/",
+   "images": [
+    "/images/img-023.png"
+   ]
+  },
+  {
+   "path": "/security/change-approval-standard/",
+   "images": [
+    "/images/img-034.png",
+    "/images/img-072.png"
+   ]
+  },
+  {
+   "path": "/security/cloud-posture-review-control-description/",
+   "images": [
+    "/images/img-073.png",
+    "/images/img-094.png",
+    "/images/img-051.png"
+   ]
+  },
+  {
+   "path": "/security/cloud-posture-review-standard/",
+   "images": [
+    "/images/img-036.png"
+   ]
+  },
+  {
+   "path": "/security/customer-data-handling-policy/",
+   "images": [
+    "/images/img-096.png",
+    "/images/img-076.png",
+    "/images/img-026.png"
+   ]
+  },
+  {
+   "path": "/security/customer-data-handling-standard/",
+   "images": [
+    "/images/img-033.png"
+   ]
+  },
+  {
+   "path": "/security/data-classification-guideline/",
+   "images": [
+    "/images/img-084.png",
+    "/images/img-080.png"
+   ]
+  },
+  {
+   "path": "/security/data-classification-policy/",
+   "images": [
+    "/images/img-089.png",
+    "/images/img-068.png",
+    "/images/img-062.png"
+   ]
+  },
+  {
+   "path": "/security/data-retention-guideline/",
+   "images": [
+    "/images/img-079.png"
+   ]
+  },
+  {
+   "path": "/security/data-retention-standard/",
+   "images": [
+    "/images/img-045.png",
+    "/images/img-022.png",
+    "/images/img-100.png"
+   ]
+  },
+  {
+   "path": "/security/device-encryption-standard/",
+   "images": [
+    "/images/img-046.png"
+   ]
+  },
+  {
+   "path": "/security/endpoint-protection-procedure/",
+   "images": [
+    "/images/img-098.png",
+    "/images/img-017.png"
+   ]
+  },
+  {
+   "path": "/security/endpoint-protection-standard/",
+   "images": [
+    "/images/img-041.png"
+   ]
+  },
+  {
+   "path": "/security/incident-response-control-description/",
+   "images": [
+    "/images/img-066.png",
+    "/images/img-053.png",
+    "/images/img-040.png"
+   ]
+  },
+  {
+   "path": "/security/incident-response-policy/",
+   "images": [
+    "/images/img-093.png",
+    "/images/img-060.png"
+   ]
+  },
+  {
+   "path": "/security/key-management-guideline/",
+   "images": [
+    "/images/img-087.png",
+    "/images/img-036.png"
+   ]
+  },
+  {
+   "path": "/security/key-management-standard/",
+   "images": [
+    "/images/img-026.png"
+   ]
+  },
+  {
+   "path": "/security/laptop-loss-guideline/",
+   "images": [
+    "/images/img-057.png",
+    "/images/img-089.png"
+   ]
+  },
+  {
+   "path": "/security/laptop-loss-policy/",
+   "images": [
+    "/images/img-069.png"
+   ]
+  },
+  {
+   "path": "/security/multi-factor-authentication-control-description/",
+   "images": [
+    "/images/img-049.png"
+   ]
+  },
+  {
+   "path": "/security/multi-factor-authentication-guideline/",
+   "images": [
+    "/images/img-014.png"
+   ]
+  },
+  {
+   "path": "/security/network-segmentation-control-description/",
+   "images": [
+    "/images/img-034.png",
+    "/images/img-017.png"
+   ]
+  },
+  {
+   "path": "/security/password-management-control-description/",
+   "images": [
+    "/images/img-029.png",
+    "/images/img-058.png"
+   ]
+  },
+  {
+   "path": "/security/password-management-policy/",
+   "images": [
+    "/images/img-024.png"
+   ]
+  },
+  {
+   "path": "/security/penetration-testing-guideline/",
+   "images": [
+    "/images/img-094.png",
+    "/images/img-013.png",
+    "/images/img-067.png"
+   ]
+  },
+  {
+   "path": "/security/penetration-testing-procedure/",
+   "images": [
+    "/images/img-065.png",
+    "/images/img-061.png",
+    "/images/img-021.png"
+   ]
+  },
+  {
+   "path": "/security/phishing-awareness-control-description/",
+   "images": [
+    "/images/img-028.png"
+   ]
+  },
+  {
+   "path": "/security/phishing-awareness-guideline/",
+   "images": [
+    "/images/img-047.png",
+    "/images/img-064.png",
+    "/images/img-027.png"
+   ]
+  },
+  {
+   "path": "/security/physical-security-control-description/",
+   "images": [
+    "/images/img-031.png"
+   ]
+  },
+  {
+   "path": "/security/physical-security-guideline/",
+   "images": [
+    "/images/img-033.png",
+    "/images/img-085.png"
+   ]
+  },
+  {
+   "path": "/security/privacy-request-policy/",
+   "images": [
+    "/images/img-063.png",
+    "/images/img-096.png"
+   ]
+  },
+  {
+   "path": "/security/privacy-request-procedure/",
+   "images": [
+    "/images/img-078.png",
+    "/images/img-068.png",
+    "/images/img-084.png"
+   ]
+  },
+  {
+   "path": "/security/remote-access-control-description/",
+   "images": [
+    "/images/img-005.png"
+   ]
+  },
+  {
+   "path": "/security/secret-scanning-procedure/",
+   "images": [
+    "/images/img-048.png",
+    "/images/img-002.png",
+    "/images/img-007.png"
+   ]
+  },
+  {
+   "path": "/security/secure-coding-control-description/",
+   "images": [
+    "/images/img-090.png",
+    "/images/img-086.png",
+    "/images/img-037.png"
+   ]
+  },
+  {
+   "path": "/security/security-monitoring-standard/",
+   "images": [
+    "/images/img-006.png"
+   ]
+  },
+  {
+   "path": "/security/third-party-access-policy/",
+   "images": [
+    "/images/img-039.png",
+    "/images/img-045.png"
+   ]
+  },
+  {
+   "path": "/security/third-party-access-standard/",
+   "images": [
+    "/images/img-056.png"
+   ]
+  },
+  {
+   "path": "/security/vendor-risk-assessment-procedure/",
+   "images": [
+    "/images/img-032.png",
+    "/images/img-076.png"
+   ]
+  },
+  {
+   "path": "/security/vendor-risk-assessment-standard/",
+   "images": [
+    "/images/img-080.png"
+   ]
+  },
+  {
+   "path": "/security/vulnerability-disclosure-procedure/",
+   "images": [
+    "/images/img-030.png"
+   ]
+  },
+  {
+   "path": "/security/vulnerability-disclosure-standard/",
+   "images": [
+    "/images/img-042.png"
+   ]
+  }
+ ]
+}

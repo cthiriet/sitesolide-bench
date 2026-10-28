@@ -1,0 +1,68 @@
+# Caddy in front of the Docker and micro-VM setups of the benchmark. The same
+# binary as sitesolide's own Caddy, and the same (commun) snippet, copied from
+# /etc/caddy/Caddyfile, so that every setup compresses and heads its answers
+# alike. Certificates come from Caddy's own local authority: the client skips
+# verification in every setup.
+{
+	admin unix//run/bench-caddy/admin.sock
+	storage file_system /var/lib/bench-caddy
+	local_certs
+	skip_install_trust
+}
+(commun) {
+	encode zstd gzip
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	# Cache policy of the repository: HTML stays fresh, media are frozen.
+	# These three rules are the reference: a site that serves the same files
+	# locally may copy them, and test that the two do not diverge.
+	#
+	# The ? prefix sets a default value instead of overwriting: a response coming
+	# from a Bun service keeps its own. Without it, a visitor photo served by
+	# /photos/<uuid>.jpg went back out with the "public, max-age=31536000,
+	# immutable" of @immutable on top of the intended "private, max-age=3600".
+	@immutable path *.jpg *.jpeg *.png *.webp *.avif *.svg *.ico *.woff2 *.woff
+	header @immutable ?Cache-Control "public, max-age=31536000, immutable"
+
+	@html path *.html /
+	header @html ?Cache-Control "public, max-age=0, must-revalidate"
+
+	# A name that carries a content fingerprint, styles.4f3a9c2b.css, designates
+	# one single content forever: freezing it for a year cannot go stale, and a
+	# modified file arrives all the same since it changes name.
+	# A site's own build may fingerprint its assets this way, at deploy time.
+	#
+	# The rule targets the PATTERN and not the extension, because this block is
+	# imported by every site: one that does not fingerprint its files keeps the
+	# one-hour rule below, without having anything to declare. It comes before
+	# that one for the same reason, the ? setting a default value that the next
+	# one will not replace.
+	@fingerprinted path_regexp \.[0-9a-f]{8}\.(css|js|mjs)$
+	header @fingerprinted ?Cache-Control "public, max-age=31536000, immutable"
+
+	# The stylesheet and the script of a site that does not fingerprint. no-cache
+	# does not mean no cache: the browser keeps the file and only asks whether it
+	# has changed, to which Caddy answers 304 in a few hundred bytes when nothing
+	# has moved. One round trip per file, for two files.
+	#
+	# That is the price to pay for a stale style to become impossible. The
+	# one-hour rule that stood here let a visitor coming back after a release
+	# load fresh HTML on top of an old stylesheet, hence a half-drawn page, and
+	# nobody saw it from the workstation.
+	#
+	# The not excludes what @fingerprinted already covers, and it is not decorative:
+	# writing the two rules side by side without it let the second win over the
+	# first, whatever their order in this file. Two header ? set on the same
+	# response are not arbitrated the way one expects; two disjoint matchers
+	# are.
+	@revalidated {
+		path *.css *.js
+		not path_regexp \.[0-9a-f]{8}\.(css|js|mjs)$
+	}
+	header @revalidated ?Cache-Control "no-cache"
+}
+import /etc/bench-caddy/sites/*.caddy

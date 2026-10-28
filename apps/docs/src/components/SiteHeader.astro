@@ -1,0 +1,29 @@
+---
+import { SECTIONS, sectionPath } from '../lib/docs';
+
+interface Props {
+  current?: string;
+}
+
+const { current } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/">
+      <span class="brand__mark" aria-hidden="true">A</span>
+      <span class="brand__name">Acme Docs</span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <ul>
+        {
+          SECTIONS.map((section) => (
+            <li>
+              <a href={sectionPath(section)} aria-current={section.id === current ? 'true' : undefined}>{section.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

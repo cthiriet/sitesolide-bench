@@ -1,0 +1,33 @@
+---
+import '../styles/site.css';
+import SiteHeader from '../components/SiteHeader.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  section?: string;
+}
+
+const { title, description = 'Internal documentation for Acme.', section } = Astro.props;
+const fullTitle = title === 'Acme Docs' ? title : `${title} | Acme Docs`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <SiteHeader current={section} />
+    <slot />
+    <footer class="site-footer">
+      <p>Acme Docs. For internal use only. Every page here is generated sample content about a fictional company.</p>
+    </footer>
+  </body>
+</html>

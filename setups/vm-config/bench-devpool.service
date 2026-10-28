@@ -1,0 +1,9 @@
+[Unit]
+Description=Devmapper thin pool for Kata with Firecracker
+Before=containerd.service
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/bench-devpool
+[Install]
+WantedBy=multi-user.target

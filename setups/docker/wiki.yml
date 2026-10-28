@@ -1,0 +1,14 @@
+# One copy of the wiki: the Next.js server, its SQLite file on a volume.
+services:
+  web:
+    image: bench/wiki
+    ports: ["127.0.0.1:${PORT}:3000"]
+    environment:
+      PORT: "3000"
+      HOST: 0.0.0.0
+      DATA_DIR: /data
+    volumes: [data:/data]
+    mem_limit: 512m
+    restart: unless-stopped
+volumes:
+  data: {}

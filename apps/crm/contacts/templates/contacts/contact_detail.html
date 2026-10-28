@@ -1,0 +1,34 @@
+{% extends "contacts/base.html" %}
+{% block title %}{{ contact.full_name }}{% endblock %}
+{% block content %}
+<h1>{{ contact.full_name }}</h1>
+<div class="card">
+  <dl class="facts">
+    <dt>Email</dt><dd>{{ contact.email }}</dd>
+    <dt>Phone</dt><dd>{{ contact.phone|default:"-" }}</dd>
+    <dt>Title</dt><dd>{{ contact.title|default:"-" }}</dd>
+    <dt>Company</dt><dd><a href="{{ contact.company.get_absolute_url }}">{{ contact.company.name }}</a></dd>
+    <dt>Owner</dt><dd>{{ contact.owner.get_username|default:"-" }}</dd>
+    <dt>Created</dt><dd>{{ contact.created_at|date:"Y-m-d" }}</dd>
+  </dl>
+  <p><a href="{% url 'contact_edit' contact.pk %}">Edit</a></p>
+</div>
+<h2>Timeline</h2>
+<ul class="timeline card">
+  {% for activity in activities %}
+  <li>
+    <span class="kind">{{ activity.get_kind_display }}</span> <strong>{{ activity.subject }}</strong>
+    <div class="when">{{ activity.happened_at|date:"Y-m-d H:i" }} by {{ activity.user.get_username|default:"-" }}</div>
+    {% if activity.body %}<div class="body">{{ activity.body }}</div>{% endif %}
+  </li>
+  {% empty %}
+  <li>No activity yet.</li>
+  {% endfor %}
+</ul>
+<h2>Add activity</h2>
+<form method="post" action="{% url 'activity_new' contact.pk %}" class="card">
+  {% csrf_token %}
+  {% include "contacts/form_fields.html" %}
+  <button type="submit">Add activity</button>
+</form>
+{% endblock %}

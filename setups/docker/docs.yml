@@ -1,0 +1,7 @@
+# One copy of the docs site: an nginx container serving the static build.
+services:
+  web:
+    image: bench/docs
+    ports: ["127.0.0.1:${PORT}:80"]
+    mem_limit: 64m
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+{% extends "contacts/base.html" %}
+{% block title %}New activity{% endblock %}
+{% block content %}
+<h1>New activity for <a href="{{ contact.get_absolute_url }}">{{ contact.full_name }}</a></h1>
+<form method="post" class="card">
+  {% csrf_token %}
+  {% include "contacts/form_fields.html" %}
+  <button type="submit">Add activity</button>
+  <a href="{{ contact.get_absolute_url }}">Cancel</a>
+</form>
+{% endblock %}

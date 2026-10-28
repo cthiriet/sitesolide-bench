@@ -1,0 +1,11 @@
+{% extends "contacts/base.html" %}
+{% block title %}{% if contact %}Edit {{ contact.full_name }}{% else %}New contact{% endif %}{% endblock %}
+{% block content %}
+<h1>{% if contact %}Edit {{ contact.full_name }}{% else %}New contact{% endif %}</h1>
+<form method="post" class="card">
+  {% csrf_token %}
+  {% include "contacts/form_fields.html" %}
+  <button type="submit">Save</button>
+  <a href="{% if contact %}{{ contact.get_absolute_url }}{% else %}{% url 'contact_list' %}{% endif %}">Cancel</a>
+</form>
+{% endblock %}

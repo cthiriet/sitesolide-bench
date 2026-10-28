@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { SECTIONS, docPath, loadDocs } from '../../lib/docs';
+
+export function getStaticPaths() {
+  return SECTIONS.map((section) => ({ params: { section: section.id }, props: { section } }));
+}
+
+const { section } = Astro.props;
+const { bySection } = await loadDocs();
+const pages = bySection.get(section.id) ?? [];
+---
+
+<Base title={section.title} description={section.blurb} section={section.id}>
+  <div class="shell shell--no-toc">
+    <Sidebar section={section} pages={pages} />
+    <main id="main" class="content">
+      <header class="page-head">
+        <h1>{section.title}</h1>
+        <p class="page-head__lede">{section.blurb}</p>
+        <p class="page-head__meta"><span>{pages.length} pages</span></p>
+      </header>
+      <ul class="page-list">
+        {
+          pages.map((page) => (
+            <li>
+              <a href={docPath(page)}>{page.data.title}</a>
+              <p>{page.data.description}</p>
+              <span class="page-list__meta">Updated {page.data.updated}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+  </div>
+</Base>

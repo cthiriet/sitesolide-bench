@@ -1,0 +1,16 @@
+# One copy of the wiki in a Firecracker micro-VM. Firecracker cannot share a
+# host folder with its guest, so a volume would become a tmpfs in the VM's
+# memory: the SQLite file lives on the container's own filesystem instead,
+# a devmapper block device on the host's disk, as a micro-VM platform gives
+# its machines a block volume.
+services:
+  web:
+    image: bench/wiki
+    runtime: io.containerd.kata.v2
+    ports: ["127.0.0.1:${PORT}:3000"]
+    environment:
+      PORT: "3000"
+      HOST: 0.0.0.0
+      DATA_DIR: /home/node/data
+    mem_limit: 512m
+    restart: unless-stopped

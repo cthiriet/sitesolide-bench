@@ -1,0 +1,6 @@
+time="2026-10-27T12:15:02Z" level=warning msg="mem_limit is deprecated, use deploy.resources.limits.memory"
+time="2026-10-27T12:15:02Z" level=info msg="Creating network wiki-04_default"
+time="2026-10-27T12:15:02Z" level=info msg="Ensuring image bench/wiki"
+time="2026-10-27T12:15:02Z" level=info msg="Creating container wiki-04-web-1"
+time="2026-10-27T12:15:02Z" level=info msg="Running [/usr/local/bin/nerdctl --snapshotter=devmapper --storage-driver=devmapper run --cidfile=/tmp/compose-330328928/cid -l=com.docker.compose.project=wiki-04 -l=com.docker.compose.service=web -l=com.docker.compose.config-hash=821daa4ad5878c3bb2f4b44d5b9cf363ceaef25f5908c370dca19faaa4c26b2e -d --name=wiki-04-web-1 --pull=never -e=PORT=3000 -e=HOST=0.0.0.0 -e=DATA_DIR=/home/node/data -m=536870912 --net=wiki-04_default --hostname=web -p=127.0.0.1:4024:3000/tcp --restart=unless-stopped --runtime=io.containerd.kata.v2 bench/wiki]"
+time="2026-10-27T12:15:02Z" level=warning msg="cannot set cgroup manager to \"systemd\" for runtime \"io.containerd.kata.v2\""

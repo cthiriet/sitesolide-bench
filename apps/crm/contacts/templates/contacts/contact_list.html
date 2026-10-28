@@ -1,0 +1,34 @@
+{% extends "contacts/base.html" %}
+{% block title %}Contacts{% endblock %}
+{% block content %}
+<h1>Contacts <small>({{ page.paginator.count }})</small></h1>
+<form method="get" class="filters">
+  <input type="search" name="q" value="{{ q }}" placeholder="Search name or email">
+  <select name="owner">
+    <option value="">Any owner</option>
+    {% for id, username in owners %}<option value="{{ id }}"{% if id == owner_id %} selected{% endif %}>{{ username }}</option>{% endfor %}
+  </select>
+  {% if company_id %}<input type="hidden" name="company" value="{{ company_id }}">{% endif %}
+  <button type="submit">Filter</button>
+  <a href="{% url 'contact_list' %}">Reset</a>
+  <a class="button" href="{% url 'contact_new' %}">New contact</a>
+</form>
+{% if company %}<p>Company: <a href="{{ company.get_absolute_url }}">{{ company.name }}</a></p>{% elif company_id %}<p>Company #{{ company_id }} not found.</p>{% endif %}
+<table>
+  <thead><tr><th>Name</th><th>Email</th><th>Title</th><th>Company</th><th>Owner</th></tr></thead>
+  <tbody>
+  {% for contact in page %}
+    <tr>
+      <td><a href="{{ contact.get_absolute_url }}">{{ contact.last_name }}, {{ contact.first_name }}</a></td>
+      <td>{{ contact.email }}</td>
+      <td>{{ contact.title }}</td>
+      <td><a href="{{ contact.company.get_absolute_url }}">{{ contact.company.name }}</a></td>
+      <td>{{ contact.owner.get_username|default:"-" }}</td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="5">No contacts match.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% include "contacts/pager.html" %}
+{% endblock %}

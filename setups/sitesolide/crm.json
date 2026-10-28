@@ -1,0 +1,26 @@
+{
+  "slug": "SLUG",
+  "install": "/bin/sh /srv/sites/SLUG/app/install.sh",
+  "services": {
+    "web": {
+      "start": "/bin/sh /srv/sites/SLUG/app/run.sh",
+      "port": WEB_PORT,
+      "memory": "512M",
+      "env": {
+        "PGHOST": "127.0.0.1",
+        "PGPORT": "DB_PORT",
+        "PGDATABASE": "app",
+        "PGUSER": "app",
+        "CSRF_TRUSTED_ORIGINS": "https://{slug}.{zone}"
+      }
+    },
+    "postgres": {
+      "start": "/bin/sh /srv/sites/SLUG/app/postgres.sh",
+      "port": DB_PORT,
+      "internal": true,
+      "memory": "256M",
+      "backup": { "folder": "postgres", "command": "/bin/sh /srv/sites/SLUG/app/postgres-backup.sh" }
+    }
+  },
+  "secrets": ["POSTGRES_PASSWORD"]
+}

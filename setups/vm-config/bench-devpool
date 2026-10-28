@@ -1,0 +1,15 @@
+#!/bin/bash
+# Lays the devmapper thin pool that Kata with Firecracker needs, on two sparse
+# files, at every boot before containerd starts. The pool keeps its state in
+# the metadata file, so laying it again after a reboot finds its volumes.
+set -euo pipefail
+dir=/var/lib/containerd/devmapper
+pool=devpool
+dmsetup status "$pool" >/dev/null 2>&1 && exit 0
+mkdir -p "$dir"
+[ -f "$dir/data" ] || truncate -s 300G "$dir/data"
+[ -f "$dir/meta" ] || truncate -s 10G "$dir/meta"
+data_dev=$(losetup --find --show "$dir/data")
+meta_dev=$(losetup --find --show "$dir/meta")
+sectors=$(( $(blockdev --getsize64 "$data_dev") / 512 ))
+dmsetup create "$pool" --table "0 $sectors thin-pool $meta_dev $data_dev 128 32768 1 skip_block_zeroing"

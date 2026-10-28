@@ -1,0 +1,31 @@
+{% extends "contacts/base.html" %}
+{% block title %}Companies{% endblock %}
+{% block content %}
+<h1>Companies <small>({{ page.paginator.count }})</small></h1>
+<form method="get" class="filters">
+  <input type="search" name="q" value="{{ q }}" placeholder="Search name">
+  <select name="industry">
+    <option value="">Any industry</option>
+    {% for name in industries %}<option value="{{ name }}"{% if name == industry %} selected{% endif %}>{{ name }}</option>{% endfor %}
+  </select>
+  <button type="submit">Filter</button>
+  <a href="{% url 'company_list' %}">Reset</a>
+</form>
+<table>
+  <thead><tr><th>Name</th><th>Industry</th><th>City</th><th>Size</th><th>Contacts</th></tr></thead>
+  <tbody>
+  {% for company in page %}
+    <tr>
+      <td><a href="{{ company.get_absolute_url }}">{{ company.name }}</a></td>
+      <td>{{ company.industry }}</td>
+      <td>{{ company.city }}</td>
+      <td>{{ company.get_size_display }}</td>
+      <td>{{ company.contact_count }}</td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="5">No companies match.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% include "contacts/pager.html" %}
+{% endblock %}

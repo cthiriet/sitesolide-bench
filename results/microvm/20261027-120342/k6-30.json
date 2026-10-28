@@ -1,0 +1,192 @@
+{
+    "metrics": {
+        "http_req_blocked": {
+            "max": 3.955269,
+            "avg": 0.05096590170307158,
+            "p(50)": 0.000561,
+            "p(95)": 0.000831,
+            "p(99)": 2.2557593599999994
+        },
+        "data_received": {
+            "count": 654844381,
+            "rate": 3282412.513310071
+        },
+        "http_reqs": {
+            "count": 5402,
+            "rate": 27.07756668817015
+        },
+        "vus": {
+            "value": 3,
+            "min": 2,
+            "max": 65
+        },
+        "http_req_connecting": {
+            "p(95)": 0,
+            "p(99)": 0.2506764999999999,
+            "max": 0.359175,
+            "avg": 0.005478447426878929,
+            "p(50)": 0
+        },
+        "iteration_duration": {
+            "max": 72342.301232,
+            "avg": 29037.572535111092,
+            "p(50)": 28947.30583,
+            "p(95)": 57084.26646809992,
+            "p(99)": 64392.95324521997
+        },
+        "http_req_duration{expected_response:true}": {
+            "max": 907.030697,
+            "avg": 19.73644668419103,
+            "p(50)": 6.608620999999999,
+            "p(95)": 67.0014099,
+            "p(99)": 308.56511852
+        },
+        "http_req_tls_handshaking": {
+            "p(99)": 1.8567572299999988,
+            "max": 3.500009,
+            "avg": 0.041625442984079955,
+            "p(50)": 0,
+            "p(95)": 0
+        },
+        "http_req_waiting": {
+            "avg": 17.32771479100336,
+            "p(50)": 1.8467095,
+            "p(95)": 65.2623979999999,
+            "p(99)": 307.75110337999996,
+            "max": 331.440477
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 5402,
+            "value": 0
+        },
+        "iterations": {
+            "count": 324,
+            "rate": 1.6240525003641484
+        },
+        "http_req_duration": {
+            "avg": 19.73644668419103,
+            "p(50)": 6.608620999999999,
+            "p(95)": 67.0014099,
+            "p(99)": 308.56511852,
+            "max": 907.030697
+        },
+        "http_req_receiving": {
+            "p(99)": 7.476875099999993,
+            "max": 900.48124,
+            "avg": 2.312576879118852,
+            "p(50)": 0.6335095,
+            "p(95)": 5.92293225
+        },
+        "data_sent": {
+            "count": 4544269,
+            "rate": 22778.183431411384
+        },
+        "checks": {
+            "passes": 5375,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_sending": {
+            "max": 2.800345,
+            "avg": 0.09615501406886358,
+            "p(50)": 0.09275050000000001,
+            "p(95)": 0.154534,
+            "p(99)": 0.18831927999999984
+        },
+        "vus_max": {
+            "max": 123,
+            "value": 123,
+            "min": 120
+        },
+        "dropped_iterations": {
+            "rate": 0.015037523151519893,
+            "count": 3
+        }
+    },
+    "root_group": {
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "status is 200": {
+                    "name": "status is 200",
+                    "path": "::status is 200",
+                    "id": "6210a8cd14cd70477eba5c5e4cb3fb5f",
+                    "passes": 4049,
+                    "fails": 0
+                },
+                "logged in": {
+                    "passes": 122,
+                    "fails": 0,
+                    "name": "logged in",
+                    "path": "::logged in",
+                    "id": "51db191fca8565c4f42cbd526a882733"
+                },
+                "GET /login/ is 200": {
+                    "passes": 129,
+                    "fails": 0,
+                    "name": "GET /login/ is 200",
+                    "path": "::GET /login/ is 200",
+                    "id": "b39314c6dac7a35d93ca4087374c0780"
+                },
+                "POST /login/ is 200": {
+                    "path": "::POST /login/ is 200",
+                    "id": "ccf2f697d8a698e39616d0313c1eed50",
+                    "passes": 126,
+                    "fails": 0,
+                    "name": "POST /login/ is 200"
+                },
+                "POST /login/ lands on the dashboard": {
+                    "name": "POST /login/ lands on the dashboard",
+                    "path": "::POST /login/ lands on the dashboard",
+                    "id": "5bc88ac0fbb1ddc82d8ab4754ee4e383",
+                    "passes": 126,
+                    "fails": 0
+                },
+                "GET /contacts/ is 200": {
+                    "name": "GET /contacts/ is 200",
+                    "path": "::GET /contacts/ is 200",
+                    "id": "5a5ea8194662aa69d20fe5f8401d2cbd",
+                    "passes": 124,
+                    "fails": 0
+                },
+                "GET /contacts/:id/ is 200": {
+                    "name": "GET /contacts/:id/ is 200",
+                    "path": "::GET /contacts/:id/ is 200",
+                    "id": "90a5630ab17a82fd9d8f40b3f2dbe893",
+                    "passes": 639,
+                    "fails": 0
+                },
+                "POST activity is 200": {
+                    "name": "POST activity is 200",
+                    "path": "::POST activity is 200",
+                    "id": "bce6a8aaa43faaf5f58e17084a048bf5",
+                    "passes": 27,
+                    "fails": 0
+                },
+                "POST activity redirects to the contact": {
+                    "name": "POST activity redirects to the contact",
+                    "path": "::POST activity redirects to the contact",
+                    "id": "8a26eaff692fbfe66f5a6d5f013ed3d7",
+                    "passes": 27,
+                    "fails": 0
+                },
+                "GET /export/contacts.csv is 200": {
+                    "name": "GET /export/contacts.csv is 200",
+                    "path": "::GET /export/contacts.csv is 200",
+                    "id": "4c65f856ed1fb447dc2f56544079ce10",
+                    "passes": 3,
+                    "fails": 0
+                },
+                "GET /export/contacts.csv is a csv": {
+                    "name": "GET /export/contacts.csv is a csv",
+                    "path": "::GET /export/contacts.csv is a csv",
+                    "id": "61055f1829e68173a76d5dde20e4a93a",
+                    "passes": 3,
+                    "fails": 0
+                }
+            },
+        "name": "",
+        "path": ""
+    }
+}

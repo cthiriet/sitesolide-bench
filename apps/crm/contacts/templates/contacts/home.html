@@ -1,0 +1,15 @@
+{% extends "contacts/base.html" %}
+{% comment %}
+  Public page: it must not touch the session, the user or the database, so it answers
+  even before the migrations have run. The header and the messages are replaced for that reason.
+{% endcomment %}
+{% block title %}Welcome{% endblock %}
+{% block header %}<header class="top"><a class="brand" href="{% url 'home' %}">CRM</a></header>{% endblock %}
+{% block messages %}{% endblock %}
+{% block content %}
+<h1>Welcome to the CRM</h1>
+<div class="card">
+  <p>Keep track of your contacts, the companies they work for, and every call, email and meeting along the way.</p>
+  <p><a class="button" href="{% url 'login' %}">Log in</a></p>
+</div>
+{% endblock %}

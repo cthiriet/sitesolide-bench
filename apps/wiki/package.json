@@ -1,0 +1,28 @@
+{
+  "name": "bench-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Team wiki benchmark app: Next.js, node:sqlite, FTS5 search",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
+    "postbuild": "node scripts/postbuild.mjs",
+    "seed": "node scripts/seed.mjs",
+    "start": "./start.sh"
+  },
+  "dependencies": {
+    "marked": "^18.1.2",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}

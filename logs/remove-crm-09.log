@@ -1,0 +1,34 @@
+-> removing crm-09, service
+   this deletes the served directory and its data. Backup snapshots, if the machine takes any, stay; what changed since the last one is lost.
+-> Caddy lock, shared with the dashboard's gatekeeper
+-> Caddy fragment, through the validated path
+-> to deposit
+   infra/caddy/Caddyfile
+-> Caddy lock: held by the caller (deploy 64347 1793100892701)
+-> differences with the VM
+   unchanged  /etc/caddy/Caddyfile
+   TO REMOVE  /etc/caddy/sites/crm-09.caddy
+-> does Caddy's unit load the zone variables?
+-> backup to /var/backups/caddy/20261027-113454
+-> deposit
+-> validation, with the token as systemd provides it
+-> reload
+-> verification
+   https://crm-10.bench.example.com/           200
+   https://dashboard.bench.example.com/        200
+   https://portal.bench.example.com/           200
+-> in service. Previous backup: /var/backups/caddy/20261027-113454
+-> stop and remove the systemd unit
+-> remove the served directory, data included
+-> remove the project's store of secrets
+-> remove the previous versions of its store kept by the dashboard
+-> remove the system user
+-> loopback: each project's own ports
+   crm-10 reaching its own ports
+-> token ownership, on the steward
+   no token created crm-09
+
+-> gone from the machine. What is left, and this command will not do it:
+   remove the site folder: git rm -r /home/deploy/bench-deploy/crm-09
+   if your workstation's vault holds a credential for it, delete that file too
+   check what still mentions it: README, CLAUDE.md, your notes

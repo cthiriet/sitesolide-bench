@@ -1,0 +1,32 @@
+# One copy of the CRM in two Firecracker micro-VMs, gunicorn and PostgreSQL.
+# The cluster lives on the container's own filesystem, a devmapper block
+# device on the host's disk, outside the image's declared volume: Firecracker
+# cannot share a host folder, and a volume would be a tmpfs in guest memory.
+services:
+  web:
+    image: bench/crm
+    runtime: io.containerd.kata.v2
+    ports: ["127.0.0.1:${PORT}:8000"]
+    environment:
+      PORT: "8000"
+      HOST: 0.0.0.0
+      PGHOST: db
+      PGPORT: "5432"
+      PGDATABASE: app
+      PGUSER: app
+      POSTGRES_PASSWORD: bench-db-pass
+      CSRF_TRUSTED_ORIGINS: https://${SLUG}.${ZONE}
+    mem_limit: 512m
+    depends_on: [db]
+    restart: unless-stopped
+  db:
+    image: postgres:17
+    runtime: io.containerd.kata.v2
+    command: [postgres, -c, shared_buffers=128MB, -c, max_connections=40, -c, dynamic_shared_memory_type=mmap]
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: bench-db-pass
+      POSTGRES_DB: app
+      PGDATA: /var/lib/postgresql/cluster
+    mem_limit: 256m
+    restart: unless-stopped

@@ -1,0 +1,29 @@
+{% extends "contacts/base.html" %}
+{% block title %}{{ company.name }}{% endblock %}
+{% block content %}
+<h1>{{ company.name }}</h1>
+<div class="card">
+  <dl class="facts">
+    <dt>Industry</dt><dd>{{ company.industry }}</dd>
+    <dt>City</dt><dd>{{ company.city }}</dd>
+    <dt>Size</dt><dd>{{ company.get_size_display }}</dd>
+  </dl>
+</div>
+<h2>Contacts</h2>
+<table>
+  <thead><tr><th>Name</th><th>Email</th><th>Title</th><th>Owner</th></tr></thead>
+  <tbody>
+  {% for contact in contacts %}
+    <tr>
+      <td><a href="{{ contact.get_absolute_url }}">{{ contact.last_name }}, {{ contact.first_name }}</a></td>
+      <td>{{ contact.email }}</td>
+      <td>{{ contact.title }}</td>
+      <td>{{ contact.owner.get_username|default:"-" }}</td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="4">No contacts.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<p><a href="{% url 'contact_list' %}?company={{ company.pk }}">Open in the contact list</a></p>
+{% endblock %}

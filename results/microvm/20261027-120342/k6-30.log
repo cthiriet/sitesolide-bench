@@ -1,0 +1,39 @@
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 5375    26.942229/s
+    checks_succeeded...: 100.00% 5375 out of 5375
+    checks_failed......: 0.00%   0 out of 5375
+
+    ✓ status is 200
+    ✓ logged in
+    ✓ GET /login/ is 200
+    ✓ POST /login/ is 200
+    ✓ POST /login/ lands on the dashboard
+    ✓ GET /contacts/ is 200
+    ✓ GET /contacts/:id/ is 200
+    ✓ POST activity is 200
+    ✓ POST activity redirects to the contact
+    ✓ GET /export/contacts.csv is 200
+    ✓ GET /export/contacts.csv is a csv
+
+    HTTP
+    http_req_duration..............: avg=19.73ms p(50)=6.6ms  p(95)=67ms   p(99)=308.56ms max=907.03ms
+      { expected_response:true }...: avg=19.73ms p(50)=6.6ms  p(95)=67ms   p(99)=308.56ms max=907.03ms
+    http_req_failed................: 0.00%  0 out of 5402
+    http_reqs......................: 5402   27.077567/s
+
+    EXECUTION
+    dropped_iterations.............: 3      0.015038/s
+    iteration_duration.............: avg=29.03s  p(50)=28.94s p(95)=57.08s p(99)=1m4s     max=1m12s   
+    iterations.....................: 324    1.624053/s
+    vus............................: 3      min=2         max=65 
+    vus_max........................: 123    min=120       max=123
+
+    NETWORK
+    data_received..................: 655 MB 3.3 MB/s
+    data_sent......................: 4.5 MB 23 kB/s
+
+
+

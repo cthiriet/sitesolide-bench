@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+
+# Written by scripts/generate.mjs on every build. k6/pages.json is generated
+# too, but it is deterministic and committed so the load test needs no build.
+src/content/docs/
+src/data/sections.json
+public/images/
+.images.stamp

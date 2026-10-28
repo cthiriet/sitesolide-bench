@@ -1,0 +1,9 @@
+# One copy of the docs site in a Firecracker micro-VM: the Docker setup's
+# image, the same cap. Kata adds the cap to the VM's base memory.
+services:
+  web:
+    image: bench/docs
+    runtime: io.containerd.kata.v2
+    ports: ["127.0.0.1:${PORT}:80"]
+    mem_limit: 64m
+    restart: unless-stopped

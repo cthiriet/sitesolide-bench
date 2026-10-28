@@ -1,0 +1,28 @@
+{% extends "contacts/base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+<div class="stats">
+  <div class="card"><div class="num">{{ contact_count }}</div><div class="label">Contacts</div></div>
+  <div class="card"><div class="num">{{ company_count }}</div><div class="label">Companies</div></div>
+  <div class="card"><div class="num">{{ activity_count }}</div><div class="label">Activities</div></div>
+  {% for label, count in kinds %}
+  <div class="card"><div class="num">{{ count }}</div><div class="label">{{ label }}s</div></div>
+  {% endfor %}
+</div>
+<h2>Latest activity</h2>
+<table>
+  <thead><tr><th>When</th><th>Kind</th><th>Subject</th><th>Contact</th><th>By</th></tr></thead>
+  <tbody>
+  {% for activity in latest %}
+    <tr>
+      <td>{{ activity.happened_at|date:"Y-m-d H:i" }}</td>
+      <td>{{ activity.get_kind_display }}</td>
+      <td>{{ activity.subject }}</td>
+      <td><a href="{{ activity.contact.get_absolute_url }}">{{ activity.contact.full_name }}</a></td>
+      <td>{{ activity.user.get_username|default:"-" }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

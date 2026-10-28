@@ -1,0 +1,7 @@
+-> project docs-06, static
+-> directories
+-> public files
+-> Caddy lock, shared with the dashboard's gatekeeper
+-> manifest
+-> verify
+   https://docs-06.bench.example.com/ 200
